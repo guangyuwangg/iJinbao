@@ -1,2843 +1,1186 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>004D1A969174AF6C5B848624330800BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDate+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/NSDate+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01C90B5BA1ED973CF81DA8D2E5651F43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarHeader.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarHeader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>078D4DF75013A50AAFBCC75467214CFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>57A5F764D689F517AF0A280881C6A35E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>082C46A244A1077339875D1132DF9874</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1524B94489B35EDB0193D2795F7AC857</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>091D54A73E1E8BB182C9D7D245AF1C2F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0A612F8B03967A88706A41DBBCB40C2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarEventIndicator.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarEventIndicator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BC79277E1C5C8C75507EFB2F09E25F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C02AFB38B7C431EAACF66FDE460F4D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0BC79277E1C5C8C75507EFB2F09E25F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0D288719B2A41F0DD7AF9CA8D55C5FFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E44012DD097816D61C9AF7B4D509469</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01C90B5BA1ED973CF81DA8D2E5651F43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0FE21D7E9190CB8FF3DAA291EA7B46F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5C32D283AFF9767FE04FB3D27A2D93D5</string>
-				<string>F964C9BC17A31A59BCDAD81259391E99</string>
-				<string>6C87C1A5FB3D8DA8F4AD70BDA9D7B44A</string>
-				<string>9B61826B3D452DCC3B687F30A891F0D0</string>
-				<string>AF45E441F8C6E244BCFEA866579B5C5F</string>
-				<string>5265AB2CFE48EE9C37E365DF67299F47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FSCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11F20D807E923A4DBE6CDFDA9A73C229</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C960DB8A2528D516D3A13FCCA82C3B66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DFDE779C6E5D3445E0CB8CCB8D424449</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1524B94489B35EDB0193D2795F7AC857</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarAppearance.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarAppearance.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18D0AC9847ACFE1E70FCA1815B8B6D61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarCell.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>196E2BACE5DB5568D0F3C858D1C46BA9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FSCalendar</string>
-			<key>target</key>
-			<string>B2619B2813D910DBC9FE9714E0788D55</string>
-			<key>targetProxy</key>
-			<string>278BA663AD2776F9A2ED60346A71F9B2</string>
-		</dict>
-		<key>1B1414788D00FCDBBFC0ED4163A1B2E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5F7358C36BC3B85F670329793E837256</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BB28774480DA728F69EFCE55C620818</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/NSString+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C908C9E23B0214C9B9B55CCB6C90A02</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1DC0C613591AB4CDDCE85E39B8EA6DA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-iJinbao-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ECEC2C4F9E7764010EF1755128DF416</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21209814564B699E013C0579D7617C88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18D0AC9847ACFE1E70FCA1815B8B6D61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>22DA16909C14A94EB9A878EF4A71B78F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C02AFB38B7C431EAACF66FDE460F4D7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>23016F69B2480F44D0BB5526B39192FA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>240F3B1AE52DFCFF98577BECF495E617</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>246E14D63551C4A1327D1AF16FF66F3C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24A6EBA9EAE5017F65E804F351F8C1E0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CB35C497A866EB05BDD08F6854BB5372</string>
-				<string>A572FB0032B0CFB592BE607D98CE8574</string>
-				<string>7809AA924DA6A77DB380CF2A5A6974B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>278BA663AD2776F9A2ED60346A71F9B2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B2619B2813D910DBC9FE9714E0788D55</string>
-			<key>remoteInfo</key>
-			<string>FSCalendar</string>
-		</dict>
-		<key>289F8E6F5EDFFD34A78075D3508BDDF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2CB0C45B63CC86C4C0837D6C3D9095F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarCollectionView.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCollectionView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D28E788C5D66824B346400B0DFA9853</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-iJinbao-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A9E8533E615EA7FD02D27524E68EE149</string>
-				<string>1C908C9E23B0214C9B9B55CCB6C90A02</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2E9567A9E3088A13D8FF1D928018FA84</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_iJinbao.framework</string>
-			<key>path</key>
-			<string>Pods-iJinbao.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2F55E4D8AA915D1D885A82BAFFEDBA76</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A4901F25C5EE5F26B07C44C5183E2114</string>
-				<string>B87C561F097BF98F062A380DDFC6B930</string>
-				<string>306665BD52056E30151CA60B07D254BF</string>
-				<string>DBEDBFBCE2FC082496107D4EE83F13C2</string>
-				<string>0BC79277E1C5C8C75507EFB2F09E25F9</string>
-				<string>693031631343CEC0E8F74110C93B32FB</string>
-				<string>DCB390566FADCFDA77005343D7AC7FFD</string>
-				<string>AE87A2F1B750E0BF98CDC1890D968818</string>
-				<string>289F8E6F5EDFFD34A78075D3508BDDF8</string>
-				<string>F6FE9BE00890BAEBB1235993584EEBA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-iJinbaoUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-iJinbaoUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCE1C00460CF74F457E0093A676A834</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66A12E4D5C211678B2448F9E984899B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>306665BD52056E30151CA60B07D254BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32FFA3628BD95E84EB2BE719EA1DE9E3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>477032787D7FE9ADA072F8DE9D61AFB7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8995A93D14BAC5A52627F2FA9171B516</string>
-				<string>721DA9BE4FB06313B21BA7A152BA7FAE</string>
-				<string>DEC2CC06BD73B4578B165C97FC103134</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iJinbaoTests</string>
-			<key>productName</key>
-			<string>Pods-iJinbaoTests</string>
-			<key>productReference</key>
-			<string>426B0FBDB6CD4CEE2538157942B7EE84</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>36ADC0C1BBB45EA7EF9E3635C2994DDB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbao-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39582F80068C0DEF708DEE01B8C053F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>004D1A969174AF6C5B848624330800BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3B202C12728218C238D98AEE659FF7D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CD502FEBD83BB7C9A99531C9B8FF7AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B885DB0B763A1DCD70285647F631796</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDate+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/NSDate+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CBF88CA2DE4F67B82C36AE6290DCC90</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FDBB92A380E152AD7BD7095E586CAA2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CD502FEBD83BB7C9A99531C9B8FF7AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarHeader.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarHeader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40B98DDE2A84056FE7FF0D8A4E6274B3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6A0D451571C67C6A2B7B977A7888D7DC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbao/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbao/Pods-iJinbao.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbao</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>426B0FBDB6CD4CEE2538157942B7EE84</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_iJinbaoTests.framework</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>42E18A7773D704188DAE03B594B0B690</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6026ABDBA74287306D2C9518D545B324</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>465365DB7461773736B54CD553C0BCE1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9FBA50678A33A1454096C15CC88B1F2A</string>
-				<string>9FD434B024ED39921955722CFC5953D3</string>
-				<string>1DC0C613591AB4CDDCE85E39B8EA6DA1</string>
-				<string>2D28E788C5D66824B346400B0DFA9853</string>
-				<string>BB893D32E28D1A31CD2F22E3C80525B7</string>
-				<string>83D44CBA260B13BFB64D392CB1CF7D50</string>
-				<string>36ADC0C1BBB45EA7EF9E3635C2994DDB</string>
-				<string>8763879CD4075EDFDBA158E4757FCCE1</string>
-				<string>6A0D451571C67C6A2B7B977A7888D7DC</string>
-				<string>831FEE4F55FA3FC3A524281059F4FDB7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-iJinbao</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-iJinbao</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>467AEC337D6887D4005F807AAEF51DDF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>48FAFAC90633F0F7AD01BC5F0FF2D592</string>
-				<string>9234E27B2F1E3BD982AF933EFD82F058</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4736529BD5F9E5ECB99CD428764F576A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A817CAE99C81EE68006DC1E60E295C0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>477032787D7FE9ADA072F8DE9D61AFB7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5232874EEE4C6D672AD1572C09658C40</string>
-				<string>FCF76A714C683C33B4C8684B315B5AC2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4814EE71271BC074621A5ABB07525ACF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D9EA616D8F785AFE57E49EB2EBB9199</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>48218E9528D3FA23445DF30EEAABB98C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DEF13A2EFC3E2A77501E2A028D56E349</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>48FAFAC90633F0F7AD01BC5F0FF2D592</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>289F8E6F5EDFFD34A78075D3508BDDF8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbaoUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4C016456080B824C14A47832D1EC2588</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/UIView+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C57AC1B079DBD5A5910873EA4FE09F2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7E1B58C9322E8E27C3376E330C124FC7</string>
-				<string>4814EE71271BC074621A5ABB07525ACF</string>
-				<string>7A779B7652F894A80FBCAF67E3E960FA</string>
-				<string>6ECD11C96CBDCA50F0331F3FBDAECE64</string>
-				<string>785778BB36B2F9B21FAE5E476E1B6E2E</string>
-				<string>082C46A244A1077339875D1132DF9874</string>
-				<string>21209814564B699E013C0579D7617C88</string>
-				<string>DB0D7D2A2EDB8D6D5C18B850CB779F7B</string>
-				<string>D4B2E79A7850584715A743A46D4EFA14</string>
-				<string>51D1AC1D010EA99E078E75C69C6D2111</string>
-				<string>6C92086C1DC08BB2A45B0A66F839CA48</string>
-				<string>3B202C12728218C238D98AEE659FF7D1</string>
-				<string>3CBF88CA2DE4F67B82C36AE6290DCC90</string>
-				<string>9EFD5A3145CC48882E4B6F6A71EE1505</string>
-				<string>078D4DF75013A50AAFBCC75467214CFB</string>
-				<string>42E18A7773D704188DAE03B594B0B690</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E6492AD9F069E7146F78D06141D2CBF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A916ED6495F548835CE6D55EA8D72C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>51D1AC1D010EA99E078E75C69C6D2111</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B17FE42DA526E38B1BAD0E640FAC0E67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5232874EEE4C6D672AD1572C09658C40</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>76E14238DC94AC1C8CEB58BD25A5776D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbaoTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5265AB2CFE48EE9C37E365DF67299F47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5289406D16D65183764EA0AED1354189</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>780EABC057D41445FA47404A1B622A82</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>53740F6635693FC7320543BEBB7C216F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1ECEC2C4F9E7764010EF1755128DF416</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>54DF3FCF835A1EB0B6A7F37B047F9E46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55CCC76CB8F869051FF573D7234BF1D5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FSCalendar.framework</string>
-			<key>path</key>
-			<string>FSCalendar.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>57A5F764D689F517AF0A280881C6A35E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/NSString+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>581B4D0A320634750E86D4B5DFD51472</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DA87082F49759820B4BF6BA44AA20D6E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>48218E9528D3FA23445DF30EEAABB98C</string>
-				<string>B9B16637F4E6B4288FC705BA15B8C3BE</string>
-				<string>C2927D81F90F2624D2EDF7C72838B007</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>196E2BACE5DB5568D0F3C858D1C46BA9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iJinbao</string>
-			<key>productName</key>
-			<string>Pods-iJinbao</string>
-			<key>productReference</key>
-			<string>2E9567A9E3088A13D8FF1D928018FA84</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>59A3A667EB647318A5CB7F633A9A7EE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarAppearance.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarAppearance.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C32D283AFF9767FE04FB3D27A2D93D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FSCalendar.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C88EB02C6D789D20C6298CF77049112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A73BF15FC5F8D84C8C1E89BC5012F8B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5F7358C36BC3B85F670329793E837256</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>973C6ACFE44EE61AC3EB163842687499</string>
-				<string>F0D56D8E51D040808E96D623109D9677</string>
-				<string>CC1E62AB45C7FE4D10390474B2FDE645</string>
-				<string>98CD1A2A02AB1888D0D56BE327D56429</string>
-				<string>7A73BF15FC5F8D84C8C1E89BC5012F8B</string>
-				<string>9D9EA616D8F785AFE57E49EB2EBB9199</string>
-				<string>C0D8BCC3685C44CA28E320CCFDFC5896</string>
-				<string>F9180C6EAEB7510676867403C29B059D</string>
-				<string>59A3A667EB647318A5CB7F633A9A7EE3</string>
-				<string>1524B94489B35EDB0193D2795F7AC857</string>
-				<string>B49CDF768CA3F6526D472C8C650B8FAC</string>
-				<string>18D0AC9847ACFE1E70FCA1815B8B6D61</string>
-				<string>C960DB8A2528D516D3A13FCCA82C3B66</string>
-				<string>2CB0C45B63CC86C4C0837D6C3D9095F1</string>
-				<string>66A12E4D5C211678B2448F9E984899B4</string>
-				<string>6C6E65A2E80A14F0FB803523C77B30C5</string>
-				<string>D49228A8363C97A98756ABE725AC608C</string>
-				<string>0A612F8B03967A88706A41DBBCB40C2F</string>
-				<string>B17FE42DA526E38B1BAD0E640FAC0E67</string>
-				<string>9B0AF2A7CE74D14448B0D5942BDFBA33</string>
-				<string>FF20F0CC674B99CCEC0A85786BDCDB05</string>
-				<string>01C90B5BA1ED973CF81DA8D2E5651F43</string>
-				<string>3CD502FEBD83BB7C9A99531C9B8FF7AA</string>
-				<string>EAE96FA9099CE5E9A94A75A3F757BB9E</string>
-				<string>9FDBB92A380E152AD7BD7095E586CAA2</string>
-				<string>004D1A969174AF6C5B848624330800BB</string>
-				<string>3B885DB0B763A1DCD70285647F631796</string>
-				<string>1BB28774480DA728F69EFCE55C620818</string>
-				<string>57A5F764D689F517AF0A280881C6A35E</string>
-				<string>4C016456080B824C14A47832D1EC2588</string>
-				<string>6026ABDBA74287306D2C9518D545B324</string>
-				<string>0FE21D7E9190CB8FF3DAA291EA7B46F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FSCalendar</string>
-			<key>path</key>
-			<string>FSCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FE7B90FEDC1A1F199DFAE74E8F730F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A817CAE99C81EE68006DC1E60E295C0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6026ABDBA74287306D2C9518D545B324</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/UIView+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66A12E4D5C211678B2448F9E984899B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarConstance.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarConstance.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>693031631343CEC0E8F74110C93B32FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6983260381111B42F335961452EEE2B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0AF2A7CE74D14448B0D5942BDFBA33</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6A0D451571C67C6A2B7B977A7888D7DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbao.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C6E65A2E80A14F0FB803523C77B30C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarConstance.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarConstance.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C87C1A5FB3D8DA8F4AD70BDA9D7B44A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FSCalendar-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C92086C1DC08BB2A45B0A66F839CA48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF20F0CC674B99CCEC0A85786BDCDB05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6ECD11C96CBDCA50F0331F3FBDAECE64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98CD1A2A02AB1888D0D56BE327D56429</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6ED1F23F337FB42C38D43740B79B2DA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8763879CD4075EDFDBA158E4757FCCE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>721DA9BE4FB06313B21BA7A152BA7FAE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5FE7B90FEDC1A1F199DFAE74E8F730F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>76E14238DC94AC1C8CEB58BD25A5776D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7809AA924DA6A77DB380CF2A5A6974B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>091D54A73E1E8BB182C9D7D245AF1C2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>780EABC057D41445FA47404A1B622A82</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE87A2F1B750E0BF98CDC1890D968818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>785778BB36B2F9B21FAE5E476E1B6E2E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9180C6EAEB7510676867403C29B059D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A73BF15FC5F8D84C8C1E89BC5012F8B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendar+IBExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar+IBExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A779B7652F894A80FBCAF67E3E960FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C87C1A5FB3D8DA8F4AD70BDA9D7B44A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7AAA9A2D6E7A085A70D03AF43C8ECA06</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_iJinbaoUITests.framework</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>1B1414788D00FCDBBFC0ED4163A1B2E6</string>
-				<string>B62DA7114D22B717172CE31160413CA4</string>
-				<string>EB31EBBC59963E0ED519A5F51D87BCA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E1B58C9322E8E27C3376E330C124FC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0D56D8E51D040808E96D623109D9677</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7E66DDA4D9ACEE4559FE14589C5F582B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8C5ED500A43A3D10FE4D81D1CC909ABF</string>
-				<string>ADD0922FFEF01FEE58FF5183526DB2F1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7FE3ECFE7843570AAFAD9216E3546026</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EAE96FA9099CE5E9A94A75A3F757BB9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>831FEE4F55FA3FC3A524281059F4FDB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbao.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83D44CBA260B13BFB64D392CB1CF7D50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbao-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>848CAA779F22E44C4E79C91F9A46DA84</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C60C0BAB1840ED78E320BF832EB7D90F</string>
-				<string>5C88EB02C6D789D20C6298CF77049112</string>
-				<string>DE0A4E10ED1E104BF1DEF81453A6EBC8</string>
-				<string>F7944D091AD240B80D98066395A99B95</string>
-				<string>E773A27D47BC2080FB249FBD4513AB1C</string>
-				<string>D603EE78D5DBF389EC429A33757BFF5C</string>
-				<string>9522DA78F08119D9EAFA3E30698BDE41</string>
-				<string>11F20D807E923A4DBE6CDFDA9A73C229</string>
-				<string>2FCE1C00460CF74F457E0093A676A834</string>
-				<string>CEBADA794147C66483B0C205EDED2F4B</string>
-				<string>F7317B2BAF77EC9AF9422499C1D467AA</string>
-				<string>6983260381111B42F335961452EEE2B0</string>
-				<string>0E44012DD097816D61C9AF7B4D509469</string>
-				<string>7FE3ECFE7843570AAFAD9216E3546026</string>
-				<string>39582F80068C0DEF708DEE01B8C053F7</string>
-				<string>B08294E2247DE35943C7180A647EE72D</string>
-				<string>C17B63D63425ED26125A32CC2E15B2A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8763879CD4075EDFDBA158E4757FCCE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iJinbao-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>890BCCCB1F7EEDCE6B1EB941A29A0599</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>831FEE4F55FA3FC3A524281059F4FDB7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbao/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbao/Pods-iJinbao.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbao</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8995A93D14BAC5A52627F2FA9171B516</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>53740F6635693FC7320543BEBB7C216F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8A916ED6495F548835CE6D55EA8D72C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C5ED500A43A3D10FE4D81D1CC909ABF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F964C9BC17A31A59BCDAD81259391E99</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FSCalendar/FSCalendar-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FSCalendar/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FSCalendar/FSCalendar.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>FSCalendar</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9234E27B2F1E3BD982AF933EFD82F058</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F6FE9BE00890BAEBB1235993584EEBA6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbaoUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9522DA78F08119D9EAFA3E30698BDE41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B49CDF768CA3F6526D472C8C650B8FAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>973C6ACFE44EE61AC3EB163842687499</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CALayer+FSExtension.h</string>
-			<key>path</key>
-			<string>FSCalendar/CALayer+FSExtension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98CD1A2A02AB1888D0D56BE327D56429</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendar.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0AF2A7CE74D14448B0D5942BDFBA33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarFlowLayout.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarFlowLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B61826B3D452DCC3B687F30A891F0D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FSCalendar-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D9EA616D8F785AFE57E49EB2EBB9199</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendar+IBExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar+IBExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EFD5A3145CC48882E4B6F6A71EE1505</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B885DB0B763A1DCD70285647F631796</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9FBA50678A33A1454096C15CC88B1F2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FD434B024ED39921955722CFC5953D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-iJinbao.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FDBB92A380E152AD7BD7095E586CAA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarStickyHeader.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarStickyHeader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4901F25C5EE5F26B07C44C5183E2114</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A572FB0032B0CFB592BE607D98CE8574</key>
-		<dict>
-			<key>fileRef</key>
-			<string>23016F69B2480F44D0BB5526B39192FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5C8C73AB5D184E61316E93FA3BF0277</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4736529BD5F9E5ECB99CD428764F576A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A6274D906E67452AEADCD3F8F8A1844C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0D288719B2A41F0DD7AF9CA8D55C5FFB</string>
-				<string>EE1A1D3A6C89165A5B56632A69F159BD</string>
-				<string>246E14D63551C4A1327D1AF16FF66F3C</string>
-				<string>240F3B1AE52DFCFF98577BECF495E617</string>
-				<string>1ECEC2C4F9E7764010EF1755128DF416</string>
-				<string>C813FD8F0382196EB1E1F347E21A5844</string>
-				<string>54DF3FCF835A1EB0B6A7F37B047F9E46</string>
-				<string>8A916ED6495F548835CE6D55EA8D72C2</string>
-				<string>76E14238DC94AC1C8CEB58BD25A5776D</string>
-				<string>DDF6E63261BCC0FA2FE3386129BE0244</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-iJinbaoTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-iJinbaoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A817CAE99C81EE68006DC1E60E295C0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A9E8533E615EA7FD02D27524E68EE149</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>ADD0922FFEF01FEE58FF5183526DB2F1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F964C9BC17A31A59BCDAD81259391E99</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FSCalendar/FSCalendar-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FSCalendar/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FSCalendar/FSCalendar.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>FSCalendar</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AE87A2F1B750E0BF98CDC1890D968818</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF45E441F8C6E244BCFEA866579B5C5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FSCalendar-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B08294E2247DE35943C7180A647EE72D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BB28774480DA728F69EFCE55C620818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B17FE42DA526E38B1BAD0E640FAC0E67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarEventIndicator.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarEventIndicator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2619B2813D910DBC9FE9714E0788D55</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7E66DDA4D9ACEE4559FE14589C5F582B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4C57AC1B079DBD5A5910873EA4FE09F2</string>
-				<string>24A6EBA9EAE5017F65E804F351F8C1E0</string>
-				<string>848CAA779F22E44C4E79C91F9A46DA84</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FSCalendar</string>
-			<key>productName</key>
-			<string>FSCalendar</string>
-			<key>productReference</key>
-			<string>55CCC76CB8F869051FF573D7234BF1D5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>B49CDF768CA3F6526D472C8C650B8FAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarCell.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B62DA7114D22B717172CE31160413CA4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>55CCC76CB8F869051FF573D7234BF1D5</string>
-				<string>2E9567A9E3088A13D8FF1D928018FA84</string>
-				<string>426B0FBDB6CD4CEE2538157942B7EE84</string>
-				<string>7AAA9A2D6E7A085A70D03AF43C8ECA06</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B87C561F097BF98F062A380DDFC6B930</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9B16637F4E6B4288FC705BA15B8C3BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CA915835D8474F2A0922CFD5ABEB90F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BB893D32E28D1A31CD2F22E3C80525B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iJinbao-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0D8BCC3685C44CA28E320CCFDFC5896</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarAnimator.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C17B63D63425ED26125A32CC2E15B2A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C016456080B824C14A47832D1EC2588</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C2927D81F90F2624D2EDF7C72838B007</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6ED1F23F337FB42C38D43740B79B2DA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C60C0BAB1840ED78E320BF832EB7D90F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>973C6ACFE44EE61AC3EB163842687499</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C813FD8F0382196EB1E1F347E21A5844</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C960DB8A2528D516D3A13FCCA82C3B66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarCollectionView.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarCollectionView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA915835D8474F2A0922CFD5ABEB90F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A817CAE99C81EE68006DC1E60E295C0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB35C497A866EB05BDD08F6854BB5372</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A817CAE99C81EE68006DC1E60E295C0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC1E62AB45C7FE4D10390474B2FDE645</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendar.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEBADA794147C66483B0C205EDED2F4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D49228A8363C97A98756ABE725AC608C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>B62DA7114D22B717172CE31160413CA4</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>B2619B2813D910DBC9FE9714E0788D55</string>
-				<string>581B4D0A320634750E86D4B5DFD51472</string>
-				<string>32FFA3628BD95E84EB2BE719EA1DE9E3</string>
-				<string>E855425C9CF260E94A8F61E2F1A5C8C2</string>
-			</array>
-		</dict>
-		<key>D49228A8363C97A98756ABE725AC608C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarDynamicHeader.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarDynamicHeader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4B2E79A7850584715A743A46D4EFA14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C6E65A2E80A14F0FB803523C77B30C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D603EE78D5DBF389EC429A33757BFF5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59A3A667EB647318A5CB7F633A9A7EE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DA87082F49759820B4BF6BA44AA20D6E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>40B98DDE2A84056FE7FF0D8A4E6274B3</string>
-				<string>890BCCCB1F7EEDCE6B1EB941A29A0599</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DB0D7D2A2EDB8D6D5C18B850CB779F7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CB0C45B63CC86C4C0837D6C3D9095F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBEDBFBCE2FC082496107D4EE83F13C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCB390566FADCFDA77005343D7AC7FFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDF6E63261BCC0FA2FE3386129BE0244</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE0A4E10ED1E104BF1DEF81453A6EBC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF45E441F8C6E244BCFEA866579B5C5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DEC2CC06BD73B4578B165C97FC103134</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E6492AD9F069E7146F78D06141D2CBF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DEF13A2EFC3E2A77501E2A028D56E349</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB893D32E28D1A31CD2F22E3C80525B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DFDE779C6E5D3445E0CB8CCB8D424449</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A817CAE99C81EE68006DC1E60E295C0A</string>
-				<string>23016F69B2480F44D0BB5526B39192FA</string>
-				<string>091D54A73E1E8BB182C9D7D245AF1C2F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E773A27D47BC2080FB249FBD4513AB1C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0D8BCC3685C44CA28E320CCFDFC5896</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E855425C9CF260E94A8F61E2F1A5C8C2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>467AEC337D6887D4005F807AAEF51DDF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>22DA16909C14A94EB9A878EF4A71B78F</string>
-				<string>A5C8C73AB5D184E61316E93FA3BF0277</string>
-				<string>5289406D16D65183764EA0AED1354189</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iJinbaoUITests</string>
-			<key>productName</key>
-			<string>Pods-iJinbaoUITests</string>
-			<key>productReference</key>
-			<string>7AAA9A2D6E7A085A70D03AF43C8ECA06</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>EAE96FA9099CE5E9A94A75A3F757BB9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FSCalendarStickyHeader.h</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarStickyHeader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB31EBBC59963E0ED519A5F51D87BCA6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>465365DB7461773736B54CD553C0BCE1</string>
-				<string>A6274D906E67452AEADCD3F8F8A1844C</string>
-				<string>2F55E4D8AA915D1D885A82BAFFEDBA76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE1A1D3A6C89165A5B56632A69F159BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-iJinbaoTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0D56D8E51D040808E96D623109D9677</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CALayer+FSExtension.m</string>
-			<key>path</key>
-			<string>FSCalendar/CALayer+FSExtension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6FE9BE00890BAEBB1235993584EEBA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iJinbaoUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7317B2BAF77EC9AF9422499C1D467AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A612F8B03967A88706A41DBBCB40C2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F7944D091AD240B80D98066395A99B95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC1E62AB45C7FE4D10390474B2FDE645</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F9180C6EAEB7510676867403C29B059D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarAnimator.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F964C9BC17A31A59BCDAD81259391E99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FSCalendar.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCF76A714C683C33B4C8684B315B5AC2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DDF6E63261BCC0FA2FE3386129BE0244</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_iJinbaoTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FF20F0CC674B99CCEC0A85786BDCDB05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FSCalendarFlowLayout.m</string>
-			<key>path</key>
-			<string>FSCalendar/FSCalendarFlowLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078D4DF75013A50AAFBCC75467214CFB /* NSString+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EAA00E4D6E9AFC23B62919E69CE197 /* NSString+FSExtension.m */; };
+		082C46A244A1077339875D1132DF9874 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE28E4F06157F1D96CDE263E2E816B /* FSCalendarAppearance.m */; };
+		0C02AFB38B7C431EAACF66FDE460F4D7 /* Pods-iJinbaoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC79277E1C5C8C75507EFB2F09E25F9 /* Pods-iJinbaoUITests-dummy.m */; };
+		0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2AD9C5D84AF60307DB602CEEDFA2A /* Notifications.swift */; };
+		0E44012DD097816D61C9AF7B4D509469 /* FSCalendarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A86FF3C691B3D9CCF2ACC0220717CE /* FSCalendarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F20D807E923A4DBE6CDFDA9A73C229 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2B9A6D49F2259705F2D80FE35677B5 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4A728B1486685FD76797FEF075BC3 /* Request.swift */; };
+		21209814564B699E013C0579D7617C88 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E79611E57D0AD666E854ECAE43157C /* FSCalendarCell.m */; };
+		23257B7B98A4613A1F2BD357C2E94CFA /* Pods-iJinbao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB893D32E28D1A31CD2F22E3C80525B7 /* Pods-iJinbao-dummy.m */; };
+		2FCE1C00460CF74F457E0093A676A834 /* FSCalendarConstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E8698CC7939367AB8E2E9807CB446E4D /* FSCalendarConstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32851F532407B099BB88B4BECBD12E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		39582F80068C0DEF708DEE01B8C053F7 /* NSDate+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A056C0A21364EA39CDCCCC5B84E88FDC /* NSDate+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966116E0DD3F60BB0DA2A5146D5CB07 /* Timeline.swift */; };
+		3B202C12728218C238D98AEE659FF7D1 /* FSCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FB480B4899EC8FB168062EF3016C2 /* FSCalendarHeader.m */; };
+		3CBF88CA2DE4F67B82C36AE6290DCC90 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB150D00619F4D881EB809F25FF39 /* FSCalendarStickyHeader.m */; };
+		42E18A7773D704188DAE03B594B0B690 /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F767B8B8AD2CD7F4CCD5B2C0E4DCB5A /* UIView+FSExtension.m */; };
+		4736529BD5F9E5ECB99CD428764F576A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		4814EE71271BC074621A5ABB07525ACF /* FSCalendar+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6740CC4D92ABA1DD088B2F41BFABEA /* FSCalendar+IBExtension.m */; };
+		4E6492AD9F069E7146F78D06141D2CBF /* Pods-iJinbaoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A916ED6495F548835CE6D55EA8D72C2 /* Pods-iJinbaoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51D1AC1D010EA99E078E75C69C6D2111 /* FSCalendarEventIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1316C3DF89C9834ACCB5F1B8B259FCCF /* FSCalendarEventIndicator.m */; };
+		53740F6635693FC7320543BEBB7C216F /* Pods-iJinbaoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEC2C4F9E7764010EF1755128DF416 /* Pods-iJinbaoTests-dummy.m */; };
+		5C88EB02C6D789D20C6298CF77049112 /* FSCalendar+IBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B690B00B5877BC4B400372D61AA73367 /* FSCalendar+IBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE7B90FEDC1A1F199DFAE74E8F730F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE56BFCA5E942AAEB31ED74ACA7B409 /* AFError.swift */; };
+		6983260381111B42F335961452EEE2B0 /* FSCalendarFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0451DAA0251497146A19A34702D483D2 /* FSCalendarFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C92086C1DC08BB2A45B0A66F839CA48 /* FSCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC7E88AAB26F395E1C1762900FBE40 /* FSCalendarFlowLayout.m */; };
+		6ECD11C96CBDCA50F0331F3FBDAECE64 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D94511C5F0B799DAB99566B8732D915 /* FSCalendar.m */; };
+		7809AA924DA6A77DB380CF2A5A6974B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		780EABC057D41445FA47404A1B622A82 /* Pods-iJinbaoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE87A2F1B750E0BF98CDC1890D968818 /* Pods-iJinbaoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785778BB36B2F9B21FAE5E476E1B6E2E /* FSCalendarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 582413315F57A18A097DB426856A3F0A /* FSCalendarAnimator.m */; };
+		7A779B7652F894A80FBCAF67E3E960FA /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D16DCDCC121F3CDBADC221102F7774 /* FSCalendar-dummy.m */; };
+		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D65F0D0AB770D0E78123E4C9D81A1 /* Alamofire.swift */; };
+		7E1B58C9322E8E27C3376E330C124FC7 /* CALayer+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F66E5C6F289D94AD46978830A13437 /* CALayer+FSExtension.m */; };
+		7FE3ECFE7843570AAFAD9216E3546026 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A442A647861AB994948B675F3514CB /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA15875A31EE0864A9959E1F59020D /* Response.swift */; };
+		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA615FE88835DA35F32AD755D0D3A42 /* Alamofire-dummy.m */; };
+		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26476A6CADB79F4819CE377BBD3FC2E /* SessionDelegate.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FD559F21BE2C9FFF763801D187F4DF /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9522DA78F08119D9EAFA3E30698BDE41 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C7CDD264BEEC8810BB78D2938757CA /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFD5A3145CC48882E4B6F6A71EE1505 /* NSDate+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B974B71FAEEDC559AF48E2384018E3 /* NSDate+FSExtension.m */; };
+		A572FB0032B0CFB592BE607D98CE8574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40FCE37A8DAE1497B3F91606C2974C /* SessionManager.swift */; };
+		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902649F93FBFCD64E3C95C27B1F7832 /* ParameterEncoding.swift */; };
+		B08294E2247DE35943C7180A647EE72D /* NSString+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DF87E0A460E8272CB5A1DCBD6961B460 /* NSString+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EC6475E135C2ED23D9B925103C35A /* ResponseSerialization.swift */; };
+		BDB81DDE85C04602FED355068967BA8D /* Pods-iJinbao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8763879CD4075EDFDBA158E4757FCCE1 /* Pods-iJinbao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48CBC102751C74185F5B8B1E9F1B /* ServerTrustPolicy.swift */; };
+		C17B63D63425ED26125A32CC2E15B2A6 /* UIView+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3F0D9CB420946090ADCEA0AF23E077 /* UIView+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60C0BAB1840ED78E320BF832EB7D90F /* CALayer+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B56614FE1EF3D2BE4C7B8A6677C3DCF /* CALayer+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C3EA5D0273CD8F577223FED644DC1 /* MultipartFormData.swift */; };
+		CB35C497A866EB05BDD08F6854BB5372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		CEBADA794147C66483B0C205EDED2F4B /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0170064B9C765FF3696195E1E5A861 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B2E79A7850584715A743A46D4EFA14 /* FSCalendarConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A647A1F6B0BA391F9D50A7890FC4 /* FSCalendarConstance.m */; };
+		D603EE78D5DBF389EC429A33757BFF5C /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD62AD3930698314BE1DE276F0C281A /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB0D7D2A2EDB8D6D5C18B850CB779F7B /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4667F1B9A97EF3823BCB30F7EB2EB /* FSCalendarCollectionView.m */; };
+		DE0A4E10ED1E104BF1DEF81453A6EBC8 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D93B818F6E90A4A7EA5462E7386103 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A27549618ADFEA857202F5AD9CC31 /* Result.swift */; };
+		E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4EB10EC48976D5157AE2B268DDAE3 /* TaskDelegate.swift */; };
+		E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D637AE36A6F25DB0696D9964051B446 /* DispatchQueue+Alamofire.swift */; };
+		E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618EE04D745702F35E8D53C411BBA2 /* NetworkReachabilityManager.swift */; };
+		E773A27D47BC2080FB249FBD4513AB1C /* FSCalendarAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC04CD6189024A5A2D6C4153E3541CF /* FSCalendarAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7317B2BAF77EC9AF9422499C1D467AA /* FSCalendarEventIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3EA2837158186C38DE8EC290C677DB /* FSCalendarEventIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7944D091AD240B80D98066395A99B95 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C35D1B42BA12E904456BAD15CF3D90 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198C642AEA727DA72A500C5B5D385FC /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E5F8D3AD11E89F3BF34A9CE10B5645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2619B2813D910DBC9FE9714E0788D55;
+			remoteInfo = FSCalendar;
+		};
+		C7AF5F5DCC820A65A6D9937B13BA92E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0451DAA0251497146A19A34702D483D2 /* FSCalendarFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarFlowLayout.h; path = FSCalendar/FSCalendarFlowLayout.h; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A1E1225C32D9955E744DC6EC22C5A08 /* Pods_iJinbao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6FB480B4899EC8FB168062EF3016C2 /* FSCalendarHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeader.m; path = FSCalendar/FSCalendarHeader.m; sourceTree = "<group>"; };
+		0BC79277E1C5C8C75507EFB2F09E25F9 /* Pods-iJinbaoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iJinbaoUITests-dummy.m"; sourceTree = "<group>"; };
+		0D1C3EA5D0273CD8F577223FED644DC1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		0D288719B2A41F0DD7AF9CA8D55C5FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2B9A6D49F2259705F2D80FE35677B5 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		0D94511C5F0B799DAB99566B8732D915 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		0DC21495B8C5239C4065F19CBF892B96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1316C3DF89C9834ACCB5F1B8B259FCCF /* FSCalendarEventIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarEventIndicator.m; path = FSCalendar/FSCalendarEventIndicator.m; sourceTree = "<group>"; };
+		1966116E0DD3F60BB0DA2A5146D5CB07 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		1A9D9A0697B18A9C508CB1874DB96C0B /* Pods_iJinbaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABF1E20F75B3931ADB2AFC31A79802B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		1C5441C6EDC1B9BFDC7EA9E519CBF2D1 /* Pods_iJinbaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC0C613591AB4CDDCE85E39B8EA6DA1 /* Pods-iJinbao-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iJinbao-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ECEC2C4F9E7764010EF1755128DF416 /* Pods-iJinbaoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iJinbaoTests-dummy.m"; sourceTree = "<group>"; };
+		1F767B8B8AD2CD7F4CCD5B2C0E4DCB5A /* UIView+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FSExtension.m"; path = "FSCalendar/UIView+FSExtension.m"; sourceTree = "<group>"; };
+		20FD559F21BE2C9FFF763801D187F4DF /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		2198C642AEA727DA72A500C5B5D385FC /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		21C35D1B42BA12E904456BAD15CF3D90 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		240F3B1AE52DFCFF98577BECF495E617 /* Pods-iJinbaoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iJinbaoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		245AB193CC907BA082B4DB3ADE07915E /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246E14D63551C4A1327D1AF16FF66F3C /* Pods-iJinbaoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iJinbaoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27A442A647861AB994948B675F3514CB /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		289F8E6F5EDFFD34A78075D3508BDDF8 /* Pods-iJinbaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CDD5223318AA67BA0FCDC6705416C37 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		2D28E788C5D66824B346400B0DFA9853 /* Pods-iJinbao-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iJinbao-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D637AE36A6F25DB0696D9964051B446 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		306665BD52056E30151CA60B07D254BF /* Pods-iJinbaoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iJinbaoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36ADC0C1BBB45EA7EF9E3635C2994DDB /* Pods-iJinbao-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbao-resources.sh"; sourceTree = "<group>"; };
+		36DC7E88AAB26F395E1C1762900FBE40 /* FSCalendarFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarFlowLayout.m; path = FSCalendar/FSCalendarFlowLayout.m; sourceTree = "<group>"; };
+		3BC04CD6189024A5A2D6C4153E3541CF /* FSCalendarAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAnimator.h; path = FSCalendar/FSCalendarAnimator.h; sourceTree = "<group>"; };
+		42A86FF3C691B3D9CCF2ACC0220717CE /* FSCalendarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeader.h; path = FSCalendar/FSCalendarHeader.h; sourceTree = "<group>"; };
+		45AC1FA91E0C3D27EA8B52B942173993 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		498EC6475E135C2ED23D9B925103C35A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		54DF3FCF835A1EB0B6A7F37B047F9E46 /* Pods-iJinbaoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbaoTests-resources.sh"; sourceTree = "<group>"; };
+		582413315F57A18A097DB426856A3F0A /* FSCalendarAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAnimator.m; path = FSCalendar/FSCalendarAnimator.m; sourceTree = "<group>"; };
+		592A48CBC102751C74185F5B8B1E9F1B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5B56614FE1EF3D2BE4C7B8A6677C3DCF /* CALayer+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+FSExtension.h"; path = "FSCalendar/CALayer+FSExtension.h"; sourceTree = "<group>"; };
+		6902649F93FBFCD64E3C95C27B1F7832 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		693031631343CEC0E8F74110C93B32FB /* Pods-iJinbaoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbaoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6A0170064B9C765FF3696195E1E5A861 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		6A0D451571C67C6A2B7B977A7888D7DC /* Pods-iJinbao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbao.debug.xcconfig"; sourceTree = "<group>"; };
+		6A41A647A1F6B0BA391F9D50A7890FC4 /* FSCalendarConstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstance.m; path = FSCalendar/FSCalendarConstance.m; sourceTree = "<group>"; };
+		6DD2AD9C5D84AF60307DB602CEEDFA2A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		76E14238DC94AC1C8CEB58BD25A5776D /* Pods-iJinbaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76E4667F1B9A97EF3823BCB30F7EB2EB /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		7D6A27549618ADFEA857202F5AD9CC31 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		82D16DCDCC121F3CDBADC221102F7774 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		831FEE4F55FA3FC3A524281059F4FDB7 /* Pods-iJinbao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbao.release.xcconfig"; sourceTree = "<group>"; };
+		83D44CBA260B13BFB64D392CB1CF7D50 /* Pods-iJinbao-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbao-frameworks.sh"; sourceTree = "<group>"; };
+		8763879CD4075EDFDBA158E4757FCCE1 /* Pods-iJinbao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iJinbao-umbrella.h"; sourceTree = "<group>"; };
+		89D93B818F6E90A4A7EA5462E7386103 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		8A916ED6495F548835CE6D55EA8D72C2 /* Pods-iJinbaoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iJinbaoTests-umbrella.h"; sourceTree = "<group>"; };
+		8BE56BFCA5E942AAEB31ED74ACA7B409 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		8ED4EB10EC48976D5157AE2B268DDAE3 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		92E4A728B1486685FD76797FEF075BC3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964D65F0D0AB770D0E78123E4C9D81A1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		9FBA50678A33A1454096C15CC88B1F2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD434B024ED39921955722CFC5953D3 /* Pods-iJinbao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iJinbao.modulemap"; sourceTree = "<group>"; };
+		A056C0A21364EA39CDCCCC5B84E88FDC /* NSDate+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FSExtension.h"; path = "FSCalendar/NSDate+FSExtension.h"; sourceTree = "<group>"; };
+		A4901F25C5EE5F26B07C44C5183E2114 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77461874AAA1620B7E2C55F5DFB90AF /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB3EA2837158186C38DE8EC290C677DB /* FSCalendarEventIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarEventIndicator.h; path = FSCalendar/FSCalendarEventIndicator.h; sourceTree = "<group>"; };
+		AC3F0D9CB420946090ADCEA0AF23E077 /* UIView+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FSExtension.h"; path = "FSCalendar/UIView+FSExtension.h"; sourceTree = "<group>"; };
+		AE87A2F1B750E0BF98CDC1890D968818 /* Pods-iJinbaoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iJinbaoUITests-umbrella.h"; sourceTree = "<group>"; };
+		B3E79611E57D0AD666E854ECAE43157C /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		B4C7CDD264BEEC8810BB78D2938757CA /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		B4FA15875A31EE0864A9959E1F59020D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B690B00B5877BC4B400372D61AA73367 /* FSCalendar+IBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FSCalendar+IBExtension.h"; path = "FSCalendar/FSCalendar+IBExtension.h"; sourceTree = "<group>"; };
+		B87C561F097BF98F062A380DDFC6B930 /* Pods-iJinbaoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iJinbaoUITests.modulemap"; sourceTree = "<group>"; };
+		BB893D32E28D1A31CD2F22E3C80525B7 /* Pods-iJinbao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iJinbao-dummy.m"; sourceTree = "<group>"; };
+		BBC671090032594AD26FB844F572CC17 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEA52DE3739D7E59516923398441E1B /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		BDAF85628923E75A1E27FDFAFF4F90A8 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		BF618EE04D745702F35E8D53C411BBA2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		C1AE28E4F06157F1D96CDE263E2E816B /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		C2EAA00E4D6E9AFC23B62919E69CE197 /* NSString+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FSExtension.m"; path = "FSCalendar/NSString+FSExtension.m"; sourceTree = "<group>"; };
+		C813FD8F0382196EB1E1F347E21A5844 /* Pods-iJinbaoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbaoTests-frameworks.sh"; sourceTree = "<group>"; };
+		DAD62AD3930698314BE1DE276F0C281A /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		DBEDBFBCE2FC082496107D4EE83F13C2 /* Pods-iJinbaoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iJinbaoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCB390566FADCFDA77005343D7AC7FFD /* Pods-iJinbaoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iJinbaoUITests-resources.sh"; sourceTree = "<group>"; };
+		DDF6E63261BCC0FA2FE3386129BE0244 /* Pods-iJinbaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF87E0A460E8272CB5A1DCBD6961B460 /* NSString+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FSExtension.h"; path = "FSCalendar/NSString+FSExtension.h"; sourceTree = "<group>"; };
+		E26476A6CADB79F4819CE377BBD3FC2E /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		E853AF8FF5373E372044EE0C38E0AA45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8698CC7939367AB8E2E9807CB446E4D /* FSCalendarConstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstance.h; path = FSCalendar/FSCalendarConstance.h; sourceTree = "<group>"; };
+		EB40FCE37A8DAE1497B3F91606C2974C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		EE1A1D3A6C89165A5B56632A69F159BD /* Pods-iJinbaoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iJinbaoTests.modulemap"; sourceTree = "<group>"; };
+		EFA615FE88835DA35F32AD755D0D3A42 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F3B974B71FAEEDC559AF48E2384018E3 /* NSDate+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FSExtension.m"; path = "FSCalendar/NSDate+FSExtension.m"; sourceTree = "<group>"; };
+		F6F66E5C6F289D94AD46978830A13437 /* CALayer+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+FSExtension.m"; path = "FSCalendar/CALayer+FSExtension.m"; sourceTree = "<group>"; };
+		F6FE9BE00890BAEBB1235993584EEBA6 /* Pods-iJinbaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iJinbaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FADEB150D00619F4D881EB809F25FF39 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		FB6740CC4D92ABA1DD088B2F41BFABEA /* FSCalendar+IBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+IBExtension.m"; path = "FSCalendar/FSCalendar+IBExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A6EBA9EAE5017F65E804F351F8C1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35C497A866EB05BDD08F6854BB5372 /* Foundation.framework in Frameworks */,
+				A572FB0032B0CFB592BE607D98CE8574 /* QuartzCore.framework in Frameworks */,
+				7809AA924DA6A77DB380CF2A5A6974B0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5514C7AA928993A421F99846348F3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32851F532407B099BB88B4BECBD12E1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721DA9BE4FB06313B21BA7A152BA7FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE7B90FEDC1A1F199DFAE74E8F730F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C8C73AB5D184E61316E93FA3BF0277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4736529BD5F9E5ECB99CD428764F576A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A51F767C50FA4B7B50B0464C8216FDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD5223318AA67BA0FCDC6705416C37 /* FSCalendar.modulemap */,
+				BBEA52DE3739D7E59516923398441E1B /* FSCalendar.xcconfig */,
+				82D16DCDCC121F3CDBADC221102F7774 /* FSCalendar-dummy.m */,
+				BDAF85628923E75A1E27FDFAFF4F90A8 /* FSCalendar-prefix.pch */,
+				89D93B818F6E90A4A7EA5462E7386103 /* FSCalendar-umbrella.h */,
+				0DC21495B8C5239C4065F19CBF892B96 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		2F55E4D8AA915D1D885A82BAFFEDBA76 /* Pods-iJinbaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4901F25C5EE5F26B07C44C5183E2114 /* Info.plist */,
+				B87C561F097BF98F062A380DDFC6B930 /* Pods-iJinbaoUITests.modulemap */,
+				306665BD52056E30151CA60B07D254BF /* Pods-iJinbaoUITests-acknowledgements.markdown */,
+				DBEDBFBCE2FC082496107D4EE83F13C2 /* Pods-iJinbaoUITests-acknowledgements.plist */,
+				0BC79277E1C5C8C75507EFB2F09E25F9 /* Pods-iJinbaoUITests-dummy.m */,
+				693031631343CEC0E8F74110C93B32FB /* Pods-iJinbaoUITests-frameworks.sh */,
+				DCB390566FADCFDA77005343D7AC7FFD /* Pods-iJinbaoUITests-resources.sh */,
+				AE87A2F1B750E0BF98CDC1890D968818 /* Pods-iJinbaoUITests-umbrella.h */,
+				289F8E6F5EDFFD34A78075D3508BDDF8 /* Pods-iJinbaoUITests.debug.xcconfig */,
+				F6FE9BE00890BAEBB1235993584EEBA6 /* Pods-iJinbaoUITests.release.xcconfig */,
+			);
+			name = "Pods-iJinbaoUITests";
+			path = "Target Support Files/Pods-iJinbaoUITests";
+			sourceTree = "<group>";
+		};
+		465365DB7461773736B54CD553C0BCE1 /* Pods-iJinbao */ = {
+			isa = PBXGroup;
+			children = (
+				9FBA50678A33A1454096C15CC88B1F2A /* Info.plist */,
+				9FD434B024ED39921955722CFC5953D3 /* Pods-iJinbao.modulemap */,
+				1DC0C613591AB4CDDCE85E39B8EA6DA1 /* Pods-iJinbao-acknowledgements.markdown */,
+				2D28E788C5D66824B346400B0DFA9853 /* Pods-iJinbao-acknowledgements.plist */,
+				BB893D32E28D1A31CD2F22E3C80525B7 /* Pods-iJinbao-dummy.m */,
+				83D44CBA260B13BFB64D392CB1CF7D50 /* Pods-iJinbao-frameworks.sh */,
+				36ADC0C1BBB45EA7EF9E3635C2994DDB /* Pods-iJinbao-resources.sh */,
+				8763879CD4075EDFDBA158E4757FCCE1 /* Pods-iJinbao-umbrella.h */,
+				6A0D451571C67C6A2B7B977A7888D7DC /* Pods-iJinbao.debug.xcconfig */,
+				831FEE4F55FA3FC3A524281059F4FDB7 /* Pods-iJinbao.release.xcconfig */,
+			);
+			name = "Pods-iJinbao";
+			path = "Target Support Files/Pods-iJinbao";
+			sourceTree = "<group>";
+		};
+		60A877A7188E63608619DF7D0ABE647F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45AC1FA91E0C3D27EA8B52B942173993 /* Alamofire.modulemap */,
+				A77461874AAA1620B7E2C55F5DFB90AF /* Alamofire.xcconfig */,
+				EFA615FE88835DA35F32AD755D0D3A42 /* Alamofire-dummy.m */,
+				1ABF1E20F75B3931ADB2AFC31A79802B /* Alamofire-prefix.pch */,
+				20FD559F21BE2C9FFF763801D187F4DF /* Alamofire-umbrella.h */,
+				E853AF8FF5373E372044EE0C38E0AA45 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				8065C1A2430C240E1B05D81C7FFF259F /* Pods */,
+				96EF6D5D4A92734F25E9B081741FCBC0 /* Products */,
+				EB31EBBC59963E0ED519A5F51D87BCA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8065C1A2430C240E1B05D81C7FFF259F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A6AB02460CFD431C3CE021AEF0CB22 /* Alamofire */,
+				CFCDDBB46F66B7F3F70EC596B97FEBE2 /* FSCalendar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94A6AB02460CFD431C3CE021AEF0CB22 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				8BE56BFCA5E942AAEB31ED74ACA7B409 /* AFError.swift */,
+				964D65F0D0AB770D0E78123E4C9D81A1 /* Alamofire.swift */,
+				2D637AE36A6F25DB0696D9964051B446 /* DispatchQueue+Alamofire.swift */,
+				0D1C3EA5D0273CD8F577223FED644DC1 /* MultipartFormData.swift */,
+				BF618EE04D745702F35E8D53C411BBA2 /* NetworkReachabilityManager.swift */,
+				6DD2AD9C5D84AF60307DB602CEEDFA2A /* Notifications.swift */,
+				6902649F93FBFCD64E3C95C27B1F7832 /* ParameterEncoding.swift */,
+				92E4A728B1486685FD76797FEF075BC3 /* Request.swift */,
+				B4FA15875A31EE0864A9959E1F59020D /* Response.swift */,
+				498EC6475E135C2ED23D9B925103C35A /* ResponseSerialization.swift */,
+				7D6A27549618ADFEA857202F5AD9CC31 /* Result.swift */,
+				592A48CBC102751C74185F5B8B1E9F1B /* ServerTrustPolicy.swift */,
+				E26476A6CADB79F4819CE377BBD3FC2E /* SessionDelegate.swift */,
+				EB40FCE37A8DAE1497B3F91606C2974C /* SessionManager.swift */,
+				8ED4EB10EC48976D5157AE2B268DDAE3 /* TaskDelegate.swift */,
+				1966116E0DD3F60BB0DA2A5146D5CB07 /* Timeline.swift */,
+				2198C642AEA727DA72A500C5B5D385FC /* Validation.swift */,
+				60A877A7188E63608619DF7D0ABE647F /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		96EF6D5D4A92734F25E9B081741FCBC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC671090032594AD26FB844F572CC17 /* Alamofire.framework */,
+				245AB193CC907BA082B4DB3ADE07915E /* FSCalendar.framework */,
+				0A1E1225C32D9955E744DC6EC22C5A08 /* Pods_iJinbao.framework */,
+				1C5441C6EDC1B9BFDC7EA9E519CBF2D1 /* Pods_iJinbaoTests.framework */,
+				1A9D9A0697B18A9C508CB1874DB96C0B /* Pods_iJinbaoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6274D906E67452AEADCD3F8F8A1844C /* Pods-iJinbaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D288719B2A41F0DD7AF9CA8D55C5FFB /* Info.plist */,
+				EE1A1D3A6C89165A5B56632A69F159BD /* Pods-iJinbaoTests.modulemap */,
+				246E14D63551C4A1327D1AF16FF66F3C /* Pods-iJinbaoTests-acknowledgements.markdown */,
+				240F3B1AE52DFCFF98577BECF495E617 /* Pods-iJinbaoTests-acknowledgements.plist */,
+				1ECEC2C4F9E7764010EF1755128DF416 /* Pods-iJinbaoTests-dummy.m */,
+				C813FD8F0382196EB1E1F347E21A5844 /* Pods-iJinbaoTests-frameworks.sh */,
+				54DF3FCF835A1EB0B6A7F37B047F9E46 /* Pods-iJinbaoTests-resources.sh */,
+				8A916ED6495F548835CE6D55EA8D72C2 /* Pods-iJinbaoTests-umbrella.h */,
+				76E14238DC94AC1C8CEB58BD25A5776D /* Pods-iJinbaoTests.debug.xcconfig */,
+				DDF6E63261BCC0FA2FE3386129BE0244 /* Pods-iJinbaoTests.release.xcconfig */,
+			);
+			name = "Pods-iJinbaoTests";
+			path = "Target Support Files/Pods-iJinbaoTests";
+			sourceTree = "<group>";
+		};
+		CFCDDBB46F66B7F3F70EC596B97FEBE2 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5B56614FE1EF3D2BE4C7B8A6677C3DCF /* CALayer+FSExtension.h */,
+				F6F66E5C6F289D94AD46978830A13437 /* CALayer+FSExtension.m */,
+				21C35D1B42BA12E904456BAD15CF3D90 /* FSCalendar.h */,
+				0D94511C5F0B799DAB99566B8732D915 /* FSCalendar.m */,
+				B690B00B5877BC4B400372D61AA73367 /* FSCalendar+IBExtension.h */,
+				FB6740CC4D92ABA1DD088B2F41BFABEA /* FSCalendar+IBExtension.m */,
+				3BC04CD6189024A5A2D6C4153E3541CF /* FSCalendarAnimator.h */,
+				582413315F57A18A097DB426856A3F0A /* FSCalendarAnimator.m */,
+				DAD62AD3930698314BE1DE276F0C281A /* FSCalendarAppearance.h */,
+				C1AE28E4F06157F1D96CDE263E2E816B /* FSCalendarAppearance.m */,
+				B4C7CDD264BEEC8810BB78D2938757CA /* FSCalendarCell.h */,
+				B3E79611E57D0AD666E854ECAE43157C /* FSCalendarCell.m */,
+				0D2B9A6D49F2259705F2D80FE35677B5 /* FSCalendarCollectionView.h */,
+				76E4667F1B9A97EF3823BCB30F7EB2EB /* FSCalendarCollectionView.m */,
+				E8698CC7939367AB8E2E9807CB446E4D /* FSCalendarConstance.h */,
+				6A41A647A1F6B0BA391F9D50A7890FC4 /* FSCalendarConstance.m */,
+				6A0170064B9C765FF3696195E1E5A861 /* FSCalendarDynamicHeader.h */,
+				AB3EA2837158186C38DE8EC290C677DB /* FSCalendarEventIndicator.h */,
+				1316C3DF89C9834ACCB5F1B8B259FCCF /* FSCalendarEventIndicator.m */,
+				0451DAA0251497146A19A34702D483D2 /* FSCalendarFlowLayout.h */,
+				36DC7E88AAB26F395E1C1762900FBE40 /* FSCalendarFlowLayout.m */,
+				42A86FF3C691B3D9CCF2ACC0220717CE /* FSCalendarHeader.h */,
+				0B6FB480B4899EC8FB168062EF3016C2 /* FSCalendarHeader.m */,
+				27A442A647861AB994948B675F3514CB /* FSCalendarStickyHeader.h */,
+				FADEB150D00619F4D881EB809F25FF39 /* FSCalendarStickyHeader.m */,
+				A056C0A21364EA39CDCCCC5B84E88FDC /* NSDate+FSExtension.h */,
+				F3B974B71FAEEDC559AF48E2384018E3 /* NSDate+FSExtension.m */,
+				DF87E0A460E8272CB5A1DCBD6961B460 /* NSString+FSExtension.h */,
+				C2EAA00E4D6E9AFC23B62919E69CE197 /* NSString+FSExtension.m */,
+				AC3F0D9CB420946090ADCEA0AF23E077 /* UIView+FSExtension.h */,
+				1F767B8B8AD2CD7F4CCD5B2C0E4DCB5A /* UIView+FSExtension.m */,
+				2A51F767C50FA4B7B50B0464C8216FDE /* Support Files */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB31EBBC59963E0ED519A5F51D87BCA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				465365DB7461773736B54CD553C0BCE1 /* Pods-iJinbao */,
+				A6274D906E67452AEADCD3F8F8A1844C /* Pods-iJinbaoTests */,
+				2F55E4D8AA915D1D885A82BAFFEDBA76 /* Pods-iJinbaoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5289406D16D65183764EA0AED1354189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780EABC057D41445FA47404A1B622A82 /* Pods-iJinbaoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CAA779F22E44C4E79C91F9A46DA84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C0BAB1840ED78E320BF832EB7D90F /* CALayer+FSExtension.h in Headers */,
+				5C88EB02C6D789D20C6298CF77049112 /* FSCalendar+IBExtension.h in Headers */,
+				DE0A4E10ED1E104BF1DEF81453A6EBC8 /* FSCalendar-umbrella.h in Headers */,
+				F7944D091AD240B80D98066395A99B95 /* FSCalendar.h in Headers */,
+				E773A27D47BC2080FB249FBD4513AB1C /* FSCalendarAnimator.h in Headers */,
+				D603EE78D5DBF389EC429A33757BFF5C /* FSCalendarAppearance.h in Headers */,
+				9522DA78F08119D9EAFA3E30698BDE41 /* FSCalendarCell.h in Headers */,
+				11F20D807E923A4DBE6CDFDA9A73C229 /* FSCalendarCollectionView.h in Headers */,
+				2FCE1C00460CF74F457E0093A676A834 /* FSCalendarConstance.h in Headers */,
+				CEBADA794147C66483B0C205EDED2F4B /* FSCalendarDynamicHeader.h in Headers */,
+				F7317B2BAF77EC9AF9422499C1D467AA /* FSCalendarEventIndicator.h in Headers */,
+				6983260381111B42F335961452EEE2B0 /* FSCalendarFlowLayout.h in Headers */,
+				0E44012DD097816D61C9AF7B4D509469 /* FSCalendarHeader.h in Headers */,
+				7FE3ECFE7843570AAFAD9216E3546026 /* FSCalendarStickyHeader.h in Headers */,
+				39582F80068C0DEF708DEE01B8C053F7 /* NSDate+FSExtension.h in Headers */,
+				B08294E2247DE35943C7180A647EE72D /* NSString+FSExtension.h in Headers */,
+				C17B63D63425ED26125A32CC2E15B2A6 /* UIView+FSExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851BB555F2865ADAA3AE6FB969619075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB81DDE85C04602FED355068967BA8D /* Pods-iJinbao-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2CC06BD73B4578B165C97FC103134 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6492AD9F069E7146F78D06141D2CBF /* Pods-iJinbaoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32FFA3628BD95E84EB2BE719EA1DE9E3 /* Pods-iJinbaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477032787D7FE9ADA072F8DE9D61AFB7 /* Build configuration list for PBXNativeTarget "Pods-iJinbaoTests" */;
+			buildPhases = (
+				8995A93D14BAC5A52627F2FA9171B516 /* Sources */,
+				721DA9BE4FB06313B21BA7A152BA7FAE /* Frameworks */,
+				DEC2CC06BD73B4578B165C97FC103134 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iJinbaoTests";
+			productName = "Pods-iJinbaoTests";
+			productReference = 1C5441C6EDC1B9BFDC7EA9E519CBF2D1 /* Pods_iJinbaoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				120C4E824DDCCA024C170A491FF221A5 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = BBC671090032594AD26FB844F572CC17 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4CEAC15995D0696A8F563920235E2D6 /* Pods-iJinbao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EE73D96F2396E9442C32F5C2A8E0BF /* Build configuration list for PBXNativeTarget "Pods-iJinbao" */;
+			buildPhases = (
+				C3FE8622D70029A652F420BC68DF777F /* Sources */,
+				5514C7AA928993A421F99846348F3E92 /* Frameworks */,
+				851BB555F2865ADAA3AE6FB969619075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497850F4B74AEB5BF6707DFB5EF4CFD7 /* PBXTargetDependency */,
+				E15235E84ED38DE1994B095FD564585D /* PBXTargetDependency */,
+			);
+			name = "Pods-iJinbao";
+			productName = "Pods-iJinbao";
+			productReference = 0A1E1225C32D9955E744DC6EC22C5A08 /* Pods_iJinbao.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E66DDA4D9ACEE4559FE14589C5F582B /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				4C57AC1B079DBD5A5910873EA4FE09F2 /* Sources */,
+				24A6EBA9EAE5017F65E804F351F8C1E0 /* Frameworks */,
+				848CAA779F22E44C4E79C91F9A46DA84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 245AB193CC907BA082B4DB3ADE07915E /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E855425C9CF260E94A8F61E2F1A5C8C2 /* Pods-iJinbaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467AEC337D6887D4005F807AAEF51DDF /* Build configuration list for PBXNativeTarget "Pods-iJinbaoUITests" */;
+			buildPhases = (
+				22DA16909C14A94EB9A878EF4A71B78F /* Sources */,
+				A5C8C73AB5D184E61316E93FA3BF0277 /* Frameworks */,
+				5289406D16D65183764EA0AED1354189 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iJinbaoUITests";
+			productName = "Pods-iJinbaoUITests";
+			productReference = 1A9D9A0697B18A9C508CB1874DB96C0B /* Pods_iJinbaoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					79C040AFDDCE1BCBF6D8B5EB0B85887F = {
+						LastSwiftMigration = 0820;
+					};
+					A4CEAC15995D0696A8F563920235E2D6 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96EF6D5D4A92734F25E9B081741FCBC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */,
+				A4CEAC15995D0696A8F563920235E2D6 /* Pods-iJinbao */,
+				32FFA3628BD95E84EB2BE719EA1DE9E3 /* Pods-iJinbaoTests */,
+				E855425C9CF260E94A8F61E2F1A5C8C2 /* Pods-iJinbaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120C4E824DDCCA024C170A491FF221A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */,
+				8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */,
+				7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */,
+				E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */,
+				C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */,
+				E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */,
+				0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */,
+				AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */,
+				12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */,
+				86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */,
+				B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */,
+				DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */,
+				C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */,
+				907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */,
+				A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */,
+				E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */,
+				3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */,
+				FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DA16909C14A94EB9A878EF4A71B78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C02AFB38B7C431EAACF66FDE460F4D7 /* Pods-iJinbaoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C57AC1B079DBD5A5910873EA4FE09F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1B58C9322E8E27C3376E330C124FC7 /* CALayer+FSExtension.m in Sources */,
+				4814EE71271BC074621A5ABB07525ACF /* FSCalendar+IBExtension.m in Sources */,
+				7A779B7652F894A80FBCAF67E3E960FA /* FSCalendar-dummy.m in Sources */,
+				6ECD11C96CBDCA50F0331F3FBDAECE64 /* FSCalendar.m in Sources */,
+				785778BB36B2F9B21FAE5E476E1B6E2E /* FSCalendarAnimator.m in Sources */,
+				082C46A244A1077339875D1132DF9874 /* FSCalendarAppearance.m in Sources */,
+				21209814564B699E013C0579D7617C88 /* FSCalendarCell.m in Sources */,
+				DB0D7D2A2EDB8D6D5C18B850CB779F7B /* FSCalendarCollectionView.m in Sources */,
+				D4B2E79A7850584715A743A46D4EFA14 /* FSCalendarConstance.m in Sources */,
+				51D1AC1D010EA99E078E75C69C6D2111 /* FSCalendarEventIndicator.m in Sources */,
+				6C92086C1DC08BB2A45B0A66F839CA48 /* FSCalendarFlowLayout.m in Sources */,
+				3B202C12728218C238D98AEE659FF7D1 /* FSCalendarHeader.m in Sources */,
+				3CBF88CA2DE4F67B82C36AE6290DCC90 /* FSCalendarStickyHeader.m in Sources */,
+				9EFD5A3145CC48882E4B6F6A71EE1505 /* NSDate+FSExtension.m in Sources */,
+				078D4DF75013A50AAFBCC75467214CFB /* NSString+FSExtension.m in Sources */,
+				42E18A7773D704188DAE03B594B0B690 /* UIView+FSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8995A93D14BAC5A52627F2FA9171B516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53740F6635693FC7320543BEBB7C216F /* Pods-iJinbaoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE8622D70029A652F420BC68DF777F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23257B7B98A4613A1F2BD357C2E94CFA /* Pods-iJinbao-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497850F4B74AEB5BF6707DFB5EF4CFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = C7AF5F5DCC820A65A6D9937B13BA92E0 /* PBXContainerItemProxy */;
+		};
+		E15235E84ED38DE1994B095FD564585D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */;
+			targetProxy = 32E5F8D3AD11E89F3BF34A9CE10B5645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		126FA6BCFE1F914A001DA62760706C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0D451571C67C6A2B7B977A7888D7DC /* Pods-iJinbao.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbao/Pods-iJinbao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77461874AAA1620B7E2C55F5DFB90AF /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		333A7870C7418AAD97C08AF3FAB1A492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289F8E6F5EDFFD34A78075D3508BDDF8 /* Pods-iJinbaoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbaoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbaoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77461874AAA1620B7E2C55F5DFB90AF /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C5ED500A43A3D10FE4D81D1CC909ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEA52DE3739D7E59516923398441E1B /* FSCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98CB60FBDF2723FEE7E22786F3E3CA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FE9BE00890BAEBB1235993584EEBA6 /* Pods-iJinbaoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbaoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbaoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD0922FFEF01FEE58FF5183526DB2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEA52DE3739D7E59516923398441E1B /* FSCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97A3CE7D5EB2676B3A1973A755B1EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E14238DC94AC1C8CEB58BD25A5776D /* Pods-iJinbaoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbaoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbaoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F010180B64C4167B706120DBD43FEF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF6E63261BCC0FA2FE3386129BE0244 /* Pods-iJinbaoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbaoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbaoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5E76BE10DE52C1414F2C3DAB1F4391E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831FEE4F55FA3FC3A524281059F4FDB7 /* Pods-iJinbao.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iJinbao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iJinbao/Pods-iJinbao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iJinbao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75218111E718FACE36F771E8ABECDB62 /* Debug */,
+				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467AEC337D6887D4005F807AAEF51DDF /* Build configuration list for PBXNativeTarget "Pods-iJinbaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333A7870C7418AAD97C08AF3FAB1A492 /* Debug */,
+				98CB60FBDF2723FEE7E22786F3E3CA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477032787D7FE9ADA072F8DE9D61AFB7 /* Build configuration list for PBXNativeTarget "Pods-iJinbaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97A3CE7D5EB2676B3A1973A755B1EAD /* Debug */,
+				F010180B64C4167B706120DBD43FEF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66DDA4D9ACEE4559FE14589C5F582B /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5ED500A43A3D10FE4D81D1CC909ABF /* Debug */,
+				ADD0922FFEF01FEE58FF5183526DB2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EE73D96F2396E9442C32F5C2A8E0BF /* Build configuration list for PBXNativeTarget "Pods-iJinbao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126FA6BCFE1F914A001DA62760706C25 /* Debug */,
+				F5E76BE10DE52C1414F2C3DAB1F4391E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

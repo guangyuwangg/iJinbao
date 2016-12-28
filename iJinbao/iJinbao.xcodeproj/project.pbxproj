@@ -1,1436 +1,726 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1B8800604BBE6914A9FFFF28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbao.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FB4084866E657B4BF97C9A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2131B6156F7F2AD9EAF312EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2131B6156F7F2AD9EAF312EC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_iJinbaoTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>35896F9EB435F114B9822550</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_iJinbaoUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3D9260BF9622ADFD20C44AAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbao.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45B1971410FE50ACBF499CA3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>53A40067A13C56232CA2DBE6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>92B4FB1288C25E4F33886A65</string>
-				<string>2131B6156F7F2AD9EAF312EC</string>
-				<string>35896F9EB435F114B9822550</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8641E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E86F1E13102D00FD1F83</string>
-				<string>5E36E8841E13102D00FD1F83</string>
-				<string>5E36E88F1E13102D00FD1F83</string>
-				<string>5E36E86E1E13102D00FD1F83</string>
-				<string>68CDDC085B804BED194AD0B5</string>
-				<string>53A40067A13C56232CA2DBE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8651E13102D00FD1F83</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0820</string>
-				<key>LastUpgradeCheck</key>
-				<string>0820</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>jinbao</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>5E36E86C1E13102D00FD1F83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>C78S4CCP47</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>5E36E8801E13102D00FD1F83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>C78S4CCP47</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>5E36E86C1E13102D00FD1F83</string>
-					</dict>
-					<key>5E36E88B1E13102D00FD1F83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>C78S4CCP47</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>5E36E86C1E13102D00FD1F83</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5E36E8681E13102D00FD1F83</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>5E36E8641E13102D00FD1F83</string>
-			<key>productRefGroup</key>
-			<string>5E36E86E1E13102D00FD1F83</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>5E36E86C1E13102D00FD1F83</string>
-				<string>5E36E8801E13102D00FD1F83</string>
-				<string>5E36E88B1E13102D00FD1F83</string>
-			</array>
-		</dict>
-		<key>5E36E8681E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5E36E8931E13102D00FD1F83</string>
-				<string>5E36E8941E13102D00FD1F83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5E36E8691E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E36E8731E13102D00FD1F83</string>
-				<string>5E36E8711E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E86A1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A988F5B9AAD81CAB314095C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E86B1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E36E87B1E13102D00FD1F83</string>
-				<string>5E36E8781E13102D00FD1F83</string>
-				<string>5E36E8761E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E86C1E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5E36E8951E13102D00FD1F83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BD1D1C341B488FE4D221D8C2</string>
-				<string>5E36E8691E13102D00FD1F83</string>
-				<string>5E36E86A1E13102D00FD1F83</string>
-				<string>5E36E86B1E13102D00FD1F83</string>
-				<string>45B1971410FE50ACBF499CA3</string>
-				<string>9BF3A75CC6271885E616F782</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iJinbao</string>
-			<key>productName</key>
-			<string>iJinbao</string>
-			<key>productReference</key>
-			<string>5E36E86D1E13102D00FD1F83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>5E36E86D1E13102D00FD1F83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iJinbao.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5E36E86E1E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E86D1E13102D00FD1F83</string>
-				<string>5E36E8811E13102D00FD1F83</string>
-				<string>5E36E88C1E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E86F1E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E8701E13102D00FD1F83</string>
-				<string>5E36E8721E13102D00FD1F83</string>
-				<string>5E36E8741E13102D00FD1F83</string>
-				<string>5E36E8771E13102D00FD1F83</string>
-				<string>5E36E8791E13102D00FD1F83</string>
-				<string>5E36E87C1E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iJinbao</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8701E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8711E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8701E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8721E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8731E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8721E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8741E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E8751E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8751E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8761E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8741E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8771E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8781E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8771E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8791E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E87A1E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E87A1E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E87B1E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8791E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E87C1E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E87D1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E36E8861E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E87E1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1FB4084866E657B4BF97C9A4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E87F1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E8801E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5E36E8981E13102D00FD1F83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A1B980EA9AF813032FCF25D0</string>
-				<string>5E36E87D1E13102D00FD1F83</string>
-				<string>5E36E87E1E13102D00FD1F83</string>
-				<string>5E36E87F1E13102D00FD1F83</string>
-				<string>CEB1C3ABD658B3ED990E6824</string>
-				<string>DBF234CC3E881FE04673DC15</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5E36E8831E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iJinbaoTests</string>
-			<key>productName</key>
-			<string>iJinbaoTests</string>
-			<key>productReference</key>
-			<string>5E36E8811E13102D00FD1F83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>5E36E8811E13102D00FD1F83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iJinbaoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5E36E8821E13102D00FD1F83</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>5E36E8651E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5E36E86C1E13102D00FD1F83</string>
-			<key>remoteInfo</key>
-			<string>iJinbao</string>
-		</dict>
-		<key>5E36E8831E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>5E36E86C1E13102D00FD1F83</string>
-			<key>targetProxy</key>
-			<string>5E36E8821E13102D00FD1F83</string>
-		</dict>
-		<key>5E36E8841E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E8851E13102D00FD1F83</string>
-				<string>5E36E8871E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iJinbaoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8851E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>iJinbaoTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8861E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8851E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8871E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8881E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E36E8911E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E8891E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>839EB6B483F2127F525F39EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E88A1E13102D00FD1F83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E36E88B1E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5E36E89B1E13102D00FD1F83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>71D76ADC7A77817FB340B581</string>
-				<string>5E36E8881E13102D00FD1F83</string>
-				<string>5E36E8891E13102D00FD1F83</string>
-				<string>5E36E88A1E13102D00FD1F83</string>
-				<string>8FA0F9C6A4374DAC49620413</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5E36E88E1E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iJinbaoUITests</string>
-			<key>productName</key>
-			<string>iJinbaoUITests</string>
-			<key>productReference</key>
-			<string>5E36E88C1E13102D00FD1F83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>5E36E88C1E13102D00FD1F83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iJinbaoUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5E36E88D1E13102D00FD1F83</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>5E36E8651E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5E36E86C1E13102D00FD1F83</string>
-			<key>remoteInfo</key>
-			<string>iJinbao</string>
-		</dict>
-		<key>5E36E88E1E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>5E36E86C1E13102D00FD1F83</string>
-			<key>targetProxy</key>
-			<string>5E36E88D1E13102D00FD1F83</string>
-		</dict>
-		<key>5E36E88F1E13102D00FD1F83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E36E8901E13102D00FD1F83</string>
-				<string>5E36E8921E13102D00FD1F83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iJinbaoUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8901E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>iJinbaoUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8911E13102D00FD1F83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E36E8901E13102D00FD1F83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E36E8921E13102D00FD1F83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E36E8931E13102D00FD1F83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E36E8941E13102D00FD1F83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5E36E8951E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5E36E8961E13102D00FD1F83</string>
-				<string>5E36E8971E13102D00FD1F83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5E36E8961E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1B8800604BBE6914A9FFFF28</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbao/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbao</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E36E8971E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3D9260BF9622ADFD20C44AAA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbao/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbao</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5E36E8981E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5E36E8991E13102D00FD1F83</string>
-				<string>5E36E89A1E13102D00FD1F83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5E36E8991E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C13CC5EF9E4A064C370509C9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbaoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbaoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iJinbao.app/iJinbao</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E36E89A1E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A69309E9B07D3049BEF3CA7A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbaoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbaoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iJinbao.app/iJinbao</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5E36E89B1E13102D00FD1F83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5E36E89C1E13102D00FD1F83</string>
-				<string>5E36E89D1E13102D00FD1F83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5E36E89C1E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E378BA9026C25287D11FEE4E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbaoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbaoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>iJinbao</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E36E89D1E13102D00FD1F83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C2C737AD1FB70C4079D6639D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>C78S4CCP47</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iJinbaoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.jinbao.iJinbaoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>iJinbao</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>68CDDC085B804BED194AD0B5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1B8800604BBE6914A9FFFF28</string>
-				<string>3D9260BF9622ADFD20C44AAA</string>
-				<string>C13CC5EF9E4A064C370509C9</string>
-				<string>A69309E9B07D3049BEF3CA7A</string>
-				<string>E378BA9026C25287D11FEE4E</string>
-				<string>C2C737AD1FB70C4079D6639D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71D76ADC7A77817FB340B581</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>839EB6B483F2127F525F39EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>35896F9EB435F114B9822550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FA0F9C6A4374DAC49620413</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>92B4FB1288C25E4F33886A65</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_iJinbao.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9BF3A75CC6271885E616F782</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A1B980EA9AF813032FCF25D0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A69309E9B07D3049BEF3CA7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbaoTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A988F5B9AAD81CAB314095C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92B4FB1288C25E4F33886A65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD1D1C341B488FE4D221D8C2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C13CC5EF9E4A064C370509C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbaoTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2C737AD1FB70C4079D6639D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbaoUITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEB1C3ABD658B3ED990E6824</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DBF234CC3E881FE04673DC15</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E378BA9026C25287D11FEE4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iJinbaoUITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>5E36E8651E13102D00FD1F83</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB4084866E657B4BF97C9A4 /* Pods_iJinbaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2131B6156F7F2AD9EAF312EC /* Pods_iJinbaoTests.framework */; };
+		5E36E8711E13102D00FD1F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36E8701E13102D00FD1F83 /* AppDelegate.swift */; };
+		5E36E8761E13102D00FD1F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E36E8741E13102D00FD1F83 /* Main.storyboard */; };
+		5E36E8781E13102D00FD1F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E36E8771E13102D00FD1F83 /* Assets.xcassets */; };
+		5E36E87B1E13102D00FD1F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E36E8791E13102D00FD1F83 /* LaunchScreen.storyboard */; };
+		5E36E8861E13102D00FD1F83 /* iJinbaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36E8851E13102D00FD1F83 /* iJinbaoTests.swift */; };
+		5E36E8911E13102D00FD1F83 /* iJinbaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36E8901E13102D00FD1F83 /* iJinbaoUITests.swift */; };
+		5E4F94EF1E1432B5003E7B01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */; };
+		5E4F94F31E1434CF003E7B01 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */; };
+		839EB6B483F2127F525F39EA /* Pods_iJinbaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35896F9EB435F114B9822550 /* Pods_iJinbaoUITests.framework */; };
+		A988F5B9AAD81CAB314095C2 /* Pods_iJinbao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FB1288C25E4F33886A65 /* Pods_iJinbao.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E36E8821E13102D00FD1F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E36E8651E13102D00FD1F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E36E86C1E13102D00FD1F83;
+			remoteInfo = iJinbao;
+		};
+		5E36E88D1E13102D00FD1F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E36E8651E13102D00FD1F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E36E86C1E13102D00FD1F83;
+			remoteInfo = iJinbao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B8800604BBE6914A9FFFF28 /* Pods-iJinbao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao.debug.xcconfig"; sourceTree = "<group>"; };
+		2131B6156F7F2AD9EAF312EC /* Pods_iJinbaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35896F9EB435F114B9822550 /* Pods_iJinbaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9260BF9622ADFD20C44AAA /* Pods-iJinbao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbao.release.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao.release.xcconfig"; sourceTree = "<group>"; };
+		5E36E86D1E13102D00FD1F83 /* iJinbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iJinbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36E8701E13102D00FD1F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E36E8751E13102D00FD1F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E36E8771E13102D00FD1F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E36E87A1E13102D00FD1F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E36E87C1E13102D00FD1F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E36E8811E13102D00FD1F83 /* iJinbaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iJinbaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36E8851E13102D00FD1F83 /* iJinbaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iJinbaoTests.swift; sourceTree = "<group>"; };
+		5E36E8871E13102D00FD1F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E36E88C1E13102D00FD1F83 /* iJinbaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iJinbaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36E8901E13102D00FD1F83 /* iJinbaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iJinbaoUITests.swift; sourceTree = "<group>"; };
+		5E36E8921E13102D00FD1F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		92B4FB1288C25E4F33886A65 /* Pods_iJinbao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69309E9B07D3049BEF3CA7A /* Pods-iJinbaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C13CC5EF9E4A064C370509C9 /* Pods-iJinbaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C737AD1FB70C4079D6639D /* Pods-iJinbaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E378BA9026C25287D11FEE4E /* Pods-iJinbaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E36E86A1E13102D00FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A988F5B9AAD81CAB314095C2 /* Pods_iJinbao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E87E1E13102D00FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4084866E657B4BF97C9A4 /* Pods_iJinbaoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E8891E13102D00FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EB6B483F2127F525F39EA /* Pods_iJinbaoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53A40067A13C56232CA2DBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B4FB1288C25E4F33886A65 /* Pods_iJinbao.framework */,
+				2131B6156F7F2AD9EAF312EC /* Pods_iJinbaoTests.framework */,
+				35896F9EB435F114B9822550 /* Pods_iJinbaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E36E8641E13102D00FD1F83 = {
+			isa = PBXGroup;
+			children = (
+				5E36E86F1E13102D00FD1F83 /* iJinbao */,
+				5E36E8841E13102D00FD1F83 /* iJinbaoTests */,
+				5E36E88F1E13102D00FD1F83 /* iJinbaoUITests */,
+				5E36E86E1E13102D00FD1F83 /* Products */,
+				68CDDC085B804BED194AD0B5 /* Pods */,
+				53A40067A13C56232CA2DBE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E36E86E1E13102D00FD1F83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E36E86D1E13102D00FD1F83 /* iJinbao.app */,
+				5E36E8811E13102D00FD1F83 /* iJinbaoTests.xctest */,
+				5E36E88C1E13102D00FD1F83 /* iJinbaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E36E86F1E13102D00FD1F83 /* iJinbao */ = {
+			isa = PBXGroup;
+			children = (
+				5E36E8701E13102D00FD1F83 /* AppDelegate.swift */,
+				5E36E8741E13102D00FD1F83 /* Main.storyboard */,
+				5E36E8771E13102D00FD1F83 /* Assets.xcassets */,
+				5E36E8791E13102D00FD1F83 /* LaunchScreen.storyboard */,
+				5E36E87C1E13102D00FD1F83 /* Info.plist */,
+				5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */,
+				5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */,
+			);
+			path = iJinbao;
+			sourceTree = "<group>";
+		};
+		5E36E8841E13102D00FD1F83 /* iJinbaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E36E8851E13102D00FD1F83 /* iJinbaoTests.swift */,
+				5E36E8871E13102D00FD1F83 /* Info.plist */,
+			);
+			path = iJinbaoTests;
+			sourceTree = "<group>";
+		};
+		5E36E88F1E13102D00FD1F83 /* iJinbaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E36E8901E13102D00FD1F83 /* iJinbaoUITests.swift */,
+				5E36E8921E13102D00FD1F83 /* Info.plist */,
+			);
+			path = iJinbaoUITests;
+			sourceTree = "<group>";
+		};
+		68CDDC085B804BED194AD0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B8800604BBE6914A9FFFF28 /* Pods-iJinbao.debug.xcconfig */,
+				3D9260BF9622ADFD20C44AAA /* Pods-iJinbao.release.xcconfig */,
+				C13CC5EF9E4A064C370509C9 /* Pods-iJinbaoTests.debug.xcconfig */,
+				A69309E9B07D3049BEF3CA7A /* Pods-iJinbaoTests.release.xcconfig */,
+				E378BA9026C25287D11FEE4E /* Pods-iJinbaoUITests.debug.xcconfig */,
+				C2C737AD1FB70C4079D6639D /* Pods-iJinbaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E36E86C1E13102D00FD1F83 /* iJinbao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36E8951E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbao" */;
+			buildPhases = (
+				BD1D1C341B488FE4D221D8C2 /* 📦 Check Pods Manifest.lock */,
+				5E36E8691E13102D00FD1F83 /* Sources */,
+				5E36E86A1E13102D00FD1F83 /* Frameworks */,
+				5E36E86B1E13102D00FD1F83 /* Resources */,
+				45B1971410FE50ACBF499CA3 /* 📦 Embed Pods Frameworks */,
+				9BF3A75CC6271885E616F782 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iJinbao;
+			productName = iJinbao;
+			productReference = 5E36E86D1E13102D00FD1F83 /* iJinbao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E36E8801E13102D00FD1F83 /* iJinbaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36E8981E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbaoTests" */;
+			buildPhases = (
+				A1B980EA9AF813032FCF25D0 /* 📦 Check Pods Manifest.lock */,
+				5E36E87D1E13102D00FD1F83 /* Sources */,
+				5E36E87E1E13102D00FD1F83 /* Frameworks */,
+				5E36E87F1E13102D00FD1F83 /* Resources */,
+				CEB1C3ABD658B3ED990E6824 /* 📦 Embed Pods Frameworks */,
+				DBF234CC3E881FE04673DC15 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E36E8831E13102D00FD1F83 /* PBXTargetDependency */,
+			);
+			name = iJinbaoTests;
+			productName = iJinbaoTests;
+			productReference = 5E36E8811E13102D00FD1F83 /* iJinbaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E36E88B1E13102D00FD1F83 /* iJinbaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36E89B1E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbaoUITests" */;
+			buildPhases = (
+				71D76ADC7A77817FB340B581 /* 📦 Check Pods Manifest.lock */,
+				5E36E8881E13102D00FD1F83 /* Sources */,
+				5E36E8891E13102D00FD1F83 /* Frameworks */,
+				5E36E88A1E13102D00FD1F83 /* Resources */,
+				8FA0F9C6A4374DAC49620413 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E36E88E1E13102D00FD1F83 /* PBXTargetDependency */,
+			);
+			name = iJinbaoUITests;
+			productName = iJinbaoUITests;
+			productReference = 5E36E88C1E13102D00FD1F83 /* iJinbaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E36E8651E13102D00FD1F83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jinbao;
+				TargetAttributes = {
+					5E36E86C1E13102D00FD1F83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C78S4CCP47;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					5E36E8801E13102D00FD1F83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C78S4CCP47;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E36E86C1E13102D00FD1F83;
+					};
+					5E36E88B1E13102D00FD1F83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C78S4CCP47;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E36E86C1E13102D00FD1F83;
+					};
+				};
+			};
+			buildConfigurationList = 5E36E8681E13102D00FD1F83 /* Build configuration list for PBXProject "iJinbao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E36E8641E13102D00FD1F83;
+			productRefGroup = 5E36E86E1E13102D00FD1F83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E36E86C1E13102D00FD1F83 /* iJinbao */,
+				5E36E8801E13102D00FD1F83 /* iJinbaoTests */,
+				5E36E88B1E13102D00FD1F83 /* iJinbaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E36E86B1E13102D00FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36E87B1E13102D00FD1F83 /* LaunchScreen.storyboard in Resources */,
+				5E36E8781E13102D00FD1F83 /* Assets.xcassets in Resources */,
+				5E36E8761E13102D00FD1F83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E87F1E13102D00FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E88A1E13102D00FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45B1971410FE50ACBF499CA3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D76ADC7A77817FB340B581 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA0F9C6A4374DAC49620413 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoUITests/Pods-iJinbaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF3A75CC6271885E616F782 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iJinbao/Pods-iJinbao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B980EA9AF813032FCF25D0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1D1C341B488FE4D221D8C2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB1C3ABD658B3ED990E6824 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF234CC3E881FE04673DC15 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E36E8691E13102D00FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4F94F31E1434CF003E7B01 /* RegisterViewController.swift in Sources */,
+				5E4F94EF1E1432B5003E7B01 /* LoginViewController.swift in Sources */,
+				5E36E8711E13102D00FD1F83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E87D1E13102D00FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36E8861E13102D00FD1F83 /* iJinbaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36E8881E13102D00FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36E8911E13102D00FD1F83 /* iJinbaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E36E8831E13102D00FD1F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E36E86C1E13102D00FD1F83 /* iJinbao */;
+			targetProxy = 5E36E8821E13102D00FD1F83 /* PBXContainerItemProxy */;
+		};
+		5E36E88E1E13102D00FD1F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E36E86C1E13102D00FD1F83 /* iJinbao */;
+			targetProxy = 5E36E88D1E13102D00FD1F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E36E8741E13102D00FD1F83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E36E8751E13102D00FD1F83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E36E8791E13102D00FD1F83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E36E87A1E13102D00FD1F83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E36E8931E13102D00FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E36E8941E13102D00FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E36E8961E13102D00FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8800604BBE6914A9FFFF28 /* Pods-iJinbao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E36E8971E13102D00FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9260BF9622ADFD20C44AAA /* Pods-iJinbao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E36E8991E13102D00FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13CC5EF9E4A064C370509C9 /* Pods-iJinbaoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iJinbao.app/iJinbao";
+			};
+			name = Debug;
+		};
+		5E36E89A1E13102D00FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69309E9B07D3049BEF3CA7A /* Pods-iJinbaoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iJinbao.app/iJinbao";
+			};
+			name = Release;
+		};
+		5E36E89C1E13102D00FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E378BA9026C25287D11FEE4E /* Pods-iJinbaoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iJinbao;
+			};
+			name = Debug;
+		};
+		5E36E89D1E13102D00FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C737AD1FB70C4079D6639D /* Pods-iJinbaoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C78S4CCP47;
+				INFOPLIST_FILE = iJinbaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinbao.iJinbaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iJinbao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E36E8681E13102D00FD1F83 /* Build configuration list for PBXProject "iJinbao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36E8931E13102D00FD1F83 /* Debug */,
+				5E36E8941E13102D00FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36E8951E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36E8961E13102D00FD1F83 /* Debug */,
+				5E36E8971E13102D00FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36E8981E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36E8991E13102D00FD1F83 /* Debug */,
+				5E36E89A1E13102D00FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36E89B1E13102D00FD1F83 /* Build configuration list for PBXNativeTarget "iJinbaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36E89C1E13102D00FD1F83 /* Debug */,
+				5E36E89D1E13102D00FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E36E8651E13102D00FD1F83 /* Project object */;
+}
