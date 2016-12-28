@@ -16,6 +16,7 @@
 		5E36E8911E13102D00FD1F83 /* iJinbaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36E8901E13102D00FD1F83 /* iJinbaoUITests.swift */; };
 		5E4F94EF1E1432B5003E7B01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */; };
 		5E4F94F31E1434CF003E7B01 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */; };
+		5E4F94F51E1469D0003E7B01 /* SelectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F94F41E1469D0003E7B01 /* SelectTypeViewController.swift */; };
 		839EB6B483F2127F525F39EA /* Pods_iJinbaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35896F9EB435F114B9822550 /* Pods_iJinbaoUITests.framework */; };
 		A988F5B9AAD81CAB314095C2 /* Pods_iJinbao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FB1288C25E4F33886A65 /* Pods_iJinbao.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		5E36E8921E13102D00FD1F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5E4F94F41E1469D0003E7B01 /* SelectTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeViewController.swift; sourceTree = "<group>"; };
 		92B4FB1288C25E4F33886A65 /* Pods_iJinbao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iJinbao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69309E9B07D3049BEF3CA7A /* Pods-iJinbaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C13CC5EF9E4A064C370509C9 /* Pods-iJinbaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iJinbaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iJinbaoTests/Pods-iJinbaoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				5E36E8771E13102D00FD1F83 /* Assets.xcassets */,
 				5E36E8791E13102D00FD1F83 /* LaunchScreen.storyboard */,
 				5E36E87C1E13102D00FD1F83 /* Info.plist */,
+				5E4F94F41E1469D0003E7B01 /* SelectTypeViewController.swift */,
 				5E4F94EE1E1432B5003E7B01 /* LoginViewController.swift */,
 				5E4F94F21E1434CF003E7B01 /* RegisterViewController.swift */,
 			);
@@ -441,6 +444,7 @@
 			files = (
 				5E4F94F31E1434CF003E7B01 /* RegisterViewController.swift in Sources */,
 				5E4F94EF1E1432B5003E7B01 /* LoginViewController.swift in Sources */,
+				5E4F94F51E1469D0003E7B01 /* SelectTypeViewController.swift in Sources */,
 				5E36E8711E13102D00FD1F83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

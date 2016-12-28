@@ -9,11 +9,18 @@
 import Foundation
 import UIKit
 
+// Type of login. Decide the flow
+enum LoginType {
+    case Client
+    case Vendor
+}
+
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var userNameTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
     
+    var loginType: LoginType?
     
     override func viewDidLoad() {
         super.viewDidLoad()
