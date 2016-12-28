@@ -1,0 +1,6 @@
+framework module Pods_iJinbaoTests {
+  umbrella header "Pods-iJinbaoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
