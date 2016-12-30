@@ -17,35 +17,66 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var wechatField: UITextField!
     @IBOutlet weak var phoneField: UITextField!
     @IBOutlet weak var addressField: UITextField!
+    @IBOutlet weak var nameText: UILabel!
+    @IBOutlet weak var wechatText: UILabel!
+    @IBOutlet weak var phoneText: UILabel!
+    @IBOutlet weak var addressText: UILabel!
 
+    var loginType: LoginType?
+    
+    static var baseURL = "https://jinbao.herokuapp.com"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboard()
+        
+        // hide fields not needed for customer
+        if loginType == LoginType.Client {
+            nameField.isHidden = true
+            wechatField.isHidden = true
+            phoneField.isHidden = true
+            addressField.isHidden = true
+            nameText.isHidden = true
+            wechatText.isHidden = true
+            phoneText.isHidden = true
+            addressText.isHidden = true
+        }
     }
     
     @IBAction func sendRegistration(_ sender: Any) {
         let params: Parameters = [
-            "email": emailField.text ?? "",
+            "register": true,
+            "username": emailField.text ?? "",
+            "vendor": "true",
             "password": passwordField.text ?? "",
             "name": nameField.text ?? "",
             "wechat": wechatField.text ?? "",
             "phone": phoneField.text ?? ""
         ]
         
-        
-        Alamofire.request("https://jinbao.herokuapp.com/api/v1/vendor", method: .post, parameters: params, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
-            guard response.result.isSuccess else {
-                print("Failed to register!")
-                return
+    
+
+        var header: HTTPHeaders = ["Origin":RegisterViewController.baseURL,
+                                   "Referer": RegisterViewController.baseURL+"/login"]
+        Alamofire.request(RegisterViewController.baseURL+"/login", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
+            for cookie in HTTPCookieStorage.shared.cookies! {
+                if cookie.name == "jinbao.login.nonce" {
+                    header["login-nonce"] = cookie.value
+                }
             }
             
-            guard let value = response.result.value as? [String: AnyObject], let calendarId = value["calendarid"], let vendorId = value["vendorid"] else {
-                print("Wrong format of response received!")
-                return
-            }
+            Alamofire.request(RegisterViewController.baseURL+"/api/v1/login", method: .post, parameters: params, encoding: JSONEncoding.default, headers: header).response(completionHandler: { (reqResponse) in
+                
+                let statusCode = reqResponse.response?.statusCode
+                
+                if statusCode == 200 {
+                    self.performSegue(withIdentifier: "registerSuccess", sender: self)
+                }
+            })
             
-            print(calendarId)
-            print(vendorId)
         }
+        
+        
+
     }
 }
