@@ -11,6 +11,14 @@ import UIKit
 import Alamofire
 
 class SelectTypeViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.navigationItem.leftBarButtonItems?.removeAll()
+        self.navigationItem.setHidesBackButton(true, animated: true)
+    }
+    
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "loginVendor" {
@@ -19,21 +27,6 @@ class SelectTypeViewController: UIViewController {
         } else if segue.identifier == "loginCustomer" {
             let destVC = segue.destination as! LoginViewController
             destVC.loginType = LoginType.Client
-        }
-    }
-    @IBAction func logout(_ sender: Any) {
-        var header: HTTPHeaders = [
-            "Origin":RegisterViewController.baseURL,
-            "Referer": RegisterViewController.baseURL+"/api/v1/logout"]
-        
-        for cookie in HTTPCookieStorage.shared.cookies! {
-            if cookie.name == "jinbao.csrf.token" {
-                header["csrf-token"] = cookie.value
-            }
-        }
-        Alamofire.request(RegisterViewController.baseURL+"/api/v1/logout", method: .post, parameters: nil, encoding: JSONEncoding.default, headers: header).responseString { (response) in
-            var statusCode = response.response?.statusCode
-            print("Status code: \(statusCode)")
         }
     }
 }

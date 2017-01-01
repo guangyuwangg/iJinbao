@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aG3-6w-YNB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fp1-Ph-V37">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,28 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="09r-YZ-ubI">
+            <objects>
+                <viewController id="fp1-Ph-V37" customClass="SplashViewController" customModule="iJinbao" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ije-qL-SwM"/>
+                        <viewControllerLayoutGuide type="bottom" id="RiA-ic-InL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UMz-Yr-lWd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yN9-W7-9lD"/>
+                    <connections>
+                        <segue destination="qkI-G3-aB0" kind="show" identifier="showSelectUserType" id="2od-Ax-IeY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OkZ-HF-9xn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287.2" y="-67.016491754122939"/>
+        </scene>
         <!--Select Type View Controller-->
         <scene sceneID="FXd-Bl-1aJ">
             <objects>
@@ -39,14 +61,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="loginCustomer" id="Ana-8r-9IZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vrg-DE-XM6">
-                                <rect key="frame" x="164" y="524" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout"/>
-                                <connections>
-                                    <action selector="logout:" destination="hJ0-35-kCu" eventType="touchUpInside" id="ekN-jm-sxp"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -54,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Qc-OB-MfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1196" y="-66.11694152923539"/>
+            <point key="canvasLocation" x="3074.4000000000001" y="-66.11694152923539"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -119,17 +133,17 @@
                         <outlet property="passwordTextfield" destination="7nj-Qg-Rtz" id="g1t-mB-vkc"/>
                         <outlet property="userNameTextfield" destination="blN-Pw-R5B" id="wZq-7Y-YKT"/>
                         <outlet property="welcomeLabel" destination="kmN-Hl-nQc" id="Nqp-1d-2Jw"/>
-                        <segue destination="6gN-NC-Sa9" kind="show" identifier="loginSuccess" id="Rwu-KJ-Mug"/>
+                        <segue destination="GNY-y0-UX8" kind="show" identifier="loginSuccess" id="Rwu-KJ-Mug"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2031.2" y="-67.016491754122939"/>
+            <point key="canvasLocation" x="3909.5999999999999" y="-67.016491754122939"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="oYo-7G-uZO">
             <objects>
-                <viewController id="6gN-NC-Sa9" sceneMemberID="viewController">
+                <viewController id="6gN-NC-Sa9" customClass="CalendarViewController" customModule="iJinbao" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s39-ax-Fun"/>
                         <viewControllerLayoutGuide type="bottom" id="EWS-fX-jqL"/>
@@ -138,18 +152,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edB-T2-tXI" customClass="FSCalendar">
-                                <rect key="frame" x="0.0" y="72" width="368" height="359"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBY-A9-mfc" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="72" width="375" height="289"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="QJX-TG-Xm6"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Title" id="c9b-SF-Nqw">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="JEY-Zd-YbC">
+                            <connections>
+                                <action selector="clickedLogout:" destination="6gN-NC-Sa9" id="l6S-qp-4ko"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6L1-fN-Vne" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2071" y="675"/>
+            <point key="canvasLocation" x="4876" y="699.40029985007504"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="cXo-EZ-G8d">
@@ -286,30 +311,48 @@
                         <outlet property="phoneText" destination="Udb-6K-2p9" id="iYk-5l-qaD"/>
                         <outlet property="wechatField" destination="6Dd-Cc-5gR" id="fTC-5w-U2O"/>
                         <outlet property="wechatText" destination="wpY-e1-eYk" id="Sq3-ST-VQL"/>
-                        <segue destination="6gN-NC-Sa9" kind="show" identifier="registerSuccess" id="FLH-RW-bmO"/>
+                        <segue destination="GNY-y0-UX8" kind="show" identifier="registerSuccess" id="FLH-RW-bmO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Id-Gj-72b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2775.1999999999998" y="-67.016491754122939"/>
+            <point key="canvasLocation" x="4653.6000000000004" y="-67.016491754122939"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="c5d-V3-2cA">
+        <scene sceneID="kfQ-bR-Crc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aG3-6w-YNB" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qkI-G3-aB0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0YU-Mf-8F7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ldb-Ke-8MH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="hJ0-35-kCu" kind="relationship" relationship="rootViewController" id="eDP-XK-dLC"/>
+                        <segue destination="hJ0-35-kCu" kind="relationship" relationship="rootViewController" id="WHr-aX-cKe"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6cP-wE-E5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBW-7V-c1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.80000000000001" y="-66.11694152923539"/>
+            <point key="canvasLocation" x="2135.1999999999998" y="-66.11694152923539"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8bY-zM-sQn">
+            <objects>
+                <navigationController storyboardIdentifier="calendarViewController" automaticallyAdjustsScrollViewInsets="NO" id="GNY-y0-UX8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aO9-n0-exh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6gN-NC-Sa9" kind="relationship" relationship="rootViewController" id="cUd-oV-qbc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hkg-z2-fg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3936.8000000000002" y="699.40029985007504"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

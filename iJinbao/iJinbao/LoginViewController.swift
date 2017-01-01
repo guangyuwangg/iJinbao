@@ -45,15 +45,16 @@ class LoginViewController: UIViewController {
     @IBAction func loginClicked(_ sender: Any) {
         let params: Parameters = [
             "username": userNameTextfield.text ?? "",
-            "vendor": "true",
+            "vendor": (loginType == LoginType.Vendor) ? "true" : "false",
             "password": passwordTextfield.text ?? ""
         ]
         
         
         
+        
         var header: HTTPHeaders = ["Origin":RegisterViewController.baseURL,
-                                   "Referer": RegisterViewController.baseURL+"/login"]
-        Alamofire.request(RegisterViewController.baseURL+"/login", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
+                                   "Referer": RegisterViewController.baseURL]
+        Alamofire.request(RegisterViewController.baseURL, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
             for cookie in HTTPCookieStorage.shared.cookies! {
                 if cookie.name == "jinbao.login.nonce" {
                     header["login-nonce"] = cookie.value
